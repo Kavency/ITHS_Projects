@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        // 1. Hälsa på användaren
         static void Main(string[] args)
         {
             Console.Write("Ange ditt namn: ");

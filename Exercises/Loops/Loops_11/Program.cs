@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            int previousNumber = 0;
             string numbers = "";
 
             for (int i = 1; i < 10; i++)

@@ -1,4 +1,7 @@
-﻿namespace Loops_02
+﻿// 2.Jämna tal
+// Skriv en loop som skriver ut alla jämna tal från 0 till 30.
+
+namespace Loops_02
 {
     internal class Program
     {

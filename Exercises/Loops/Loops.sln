@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Skriv talen 20 till 30", "Loops_01\01 Skriv talen 20 till 30.csproj", "{49813190-CCC4-4927-8FAF-F1A71D437AC6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_02", "Loops_02\Loops_02.csproj", "{4E7CB677-C22F-4106-97EA-CBBEFAF45C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Jämna tal", "Loops_02\02 Jämna tal.csproj", "{4E7CB677-C22F-4106-97EA-CBBEFAF45C61}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_03", "Loops_03\Loops_03.csproj", "{816003E3-4F0D-41E4-8ABA-819A8B2710C3}"
 EndProject

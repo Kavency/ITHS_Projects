@@ -18,24 +18,51 @@ namespace _14_Spel___Gissa_tal
         {
             Random randomNumber = new();
             
-            bool isPlayerPlaying;
+            bool isPlayerPlaying = true;
+            bool isRestarting = false;
+            bool isExiting = false;
             string userInput;
-            int superSecretNumber = randomNumber.Next(101);
+            int superSecretNumber = randomNumber.Next(1, 101);
+            int userGuess;
+            int numberOfGuesses = 0; ;
 
-            while (true)
+            while (isExiting == false)
             {
                 Console.Clear();
                 Console.WriteLine("Välkommen till gissa talet");
                 Console.WriteLine("--------------------------");
                 Console.WriteLine();
-                Console.Write("Vill du spela (j/n) (vid n spelar datorn själv. x för att avsluta) ? ");
+                
+                userInput = GetUserInput("Vill du spela (j/n)?\nVid n spelar datorn själv.\nTryck x för att avsluta. Gör ditt val > ");
 
-                userInput = Console.ReadLine().ToLower();
-
-                while (true)
+                while (isRestarting == false)
                 {
                     if (userInput == "j")
                     {
+                        while (Int32.TryParse(GetUserInput("Gissa på ett tal från 1 till 100: "), out userGuess))
+                        {
+                            if (userGuess == superSecretNumber)
+                            {
+                                numberOfGuesses++;
+                                Console.WriteLine($"Du GISSADE RÄTT! Antal gissningar: {numberOfGuesses}");
+                                GetUserInput("Tryck enter för att spela igen.");
+                                isRestarting = true;
+                                break;
+                            }
+                            else if (userGuess < superSecretNumber)
+                            {
+                                Console.WriteLine("Du gissadde för lågt. Försök igen.");
+                                numberOfGuesses++;
+                                continue;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Du gissadde för högt. Försök igen.");
+                                numberOfGuesses++;
+                                continue;
+                            }
+                        }
+
                         // Run player game mode.
                         break;
                     }
@@ -48,6 +75,7 @@ namespace _14_Spel___Gissa_tal
                     }
                     else if (userInput == "x")
                     {
+                        isExiting = true;
                         break;
                     }
                     else
@@ -56,16 +84,13 @@ namespace _14_Spel___Gissa_tal
                         userInput = Console.ReadLine().ToLower();
                     }
                 }
-
-                if (userInput == "x")
-                    break;
             }
         }
 
-        static string userInput(string prompt)
+        static string GetUserInput(string prompt)
         {
-            Console.WriteLine(prompt);
-            return Console.ReadLine();
+            Console.Write(prompt);
+            return Console.ReadLine().ToLower();
         }
     }
 }

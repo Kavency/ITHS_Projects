@@ -10,11 +10,16 @@ namespace Loops_12
         static void Main(string[] args)
         {
             string numbers = "";
-            int lineNumber = 1;
+            int lineNumber = 0;
 
             for (int i = 1; i < 10; i++)
             {
                 numbers += i.ToString();
+                lineNumber++;
+
+                if (lineNumber != 1 && lineNumber == numbers.Length)
+                    Console.WriteLine();
+
                 Console.WriteLine(numbers);
             }
         }

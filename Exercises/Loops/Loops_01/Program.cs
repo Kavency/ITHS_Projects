@@ -1,4 +1,7 @@
-﻿namespace Loops_01
+﻿// 01.Skriv talen 20 till 30
+// Skriv en loop som skriver ut alla tal från 20 till 30.
+
+namespace Loops_01
 {
     internal class Program
     {

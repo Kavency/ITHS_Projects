@@ -14,26 +14,34 @@ namespace _14_Spel___Gissa_tal
 {
     internal class Program
     {
+        static Random randomNumber = new();
+        static bool isRestarting = false;
+        static bool isExiting = false;
+        static string userInput;
+        static int superSecretNumber = randomNumber.Next(1, 101);
+        static int userGuess;
+        static int computerGuess;
+        static int numberOfGuesses = 0;
+        
+        
+        
         static void Main(string[] args)
         {
-            Random randomNumber = new();
             
-            bool isPlayerPlaying = true;
-            bool isRestarting = false;
-            bool isExiting = false;
-            string userInput;
-            int superSecretNumber = randomNumber.Next(1, 101);
-            int userGuess;
-            int numberOfGuesses = 0; ;
 
             while (isExiting == false)
             {
+                isRestarting = false;
+                superSecretNumber = randomNumber.Next(1, 101);
+                computerGuess = 50;
+                numberOfGuesses = 0;
+
                 Console.Clear();
                 Console.WriteLine("Välkommen till gissa talet");
                 Console.WriteLine("--------------------------");
                 Console.WriteLine();
                 
-                userInput = GetUserInput("Vill du spela (j/n)?\nVid n spelar datorn själv.\nTryck x för att avsluta. Gör ditt val > ");
+                userInput = GetUserInput("Vill du spela (j/n)?\nVid n spelar datorn själv.\nTryck x för att avsluta.\nGör ditt val > ");
 
                 while (isRestarting == false)
                 {
@@ -62,15 +70,39 @@ namespace _14_Spel___Gissa_tal
                                 continue;
                             }
                         }
-
-                        // Run player game mode.
+                        
                         break;
                     }
                     else if (userInput == "n")
                     {
-                        isPlayerPlaying = false;
+                        while (true)
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine($"Computer guesses {computerGuess}.");
 
-                        // Run computer play mode.
+                            if (computerGuess == superSecretNumber)
+                            {
+                                numberOfGuesses++;
+                                Console.WriteLine($"DATORN GISSADE RÄTT! Antal gissningar: {numberOfGuesses}");
+                                GetUserInput("Tryck enter för att spela igen.");
+                                isRestarting = true;
+                                break;
+                            }
+                            else if (computerGuess < superSecretNumber)
+                            {
+                                numberOfGuesses++;
+                                Console.WriteLine("Datorn gissade för lågt. Försök igen.");
+                                computerGuess = randomNumber.Next(computerGuess, 101);
+                                continue;
+                            }
+                            else
+                            {
+                                numberOfGuesses++;
+                                Console.WriteLine("Datorn gissade för högt. Försök igen.");
+                                computerGuess = randomNumber.Next(1, computerGuess);
+                                continue;
+                            }
+                        }
                         break;
                     }
                     else if (userInput == "x")

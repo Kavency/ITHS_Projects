@@ -16,8 +16,11 @@ namespace _14_Spel___Gissa_tal
     {
         static void Main(string[] args)
         {
-            bool isPlayerPlaying = true;
-            string userInput = "";
+            Random randomNumber = new();
+            
+            bool isPlayerPlaying;
+            string userInput;
+            int superSecretNumber = randomNumber.Next(101);
 
             while (true)
             {
@@ -25,7 +28,7 @@ namespace _14_Spel___Gissa_tal
                 Console.WriteLine("Välkommen till gissa talet");
                 Console.WriteLine("--------------------------");
                 Console.WriteLine();
-                Console.Write("Vill du spela (j/n) (x för att avsluta) ? ");
+                Console.Write("Vill du spela (j/n) (vid n spelar datorn själv. x för att avsluta) ? ");
 
                 userInput = Console.ReadLine().ToLower();
 
@@ -33,11 +36,15 @@ namespace _14_Spel___Gissa_tal
                 {
                     if (userInput == "j")
                     {
-
+                        // Run player game mode.
+                        break;
                     }
                     else if (userInput == "n")
                     {
                         isPlayerPlaying = false;
+
+                        // Run computer play mode.
+                        break;
                     }
                     else if (userInput == "x")
                     {
@@ -53,6 +60,12 @@ namespace _14_Spel___Gissa_tal
                 if (userInput == "x")
                     break;
             }
+        }
+
+        static string userInput(string prompt)
+        {
+            Console.WriteLine(prompt);
+            return Console.ReadLine();
         }
     }
 }

@@ -1,4 +1,8 @@
-﻿namespace Loops_08
+﻿// 8.Randig box
+// Samma som uppgift 7, 
+// men för varannan kolumn skrivs bokstaven O istället för X.
+
+namespace Loops_08
 {
     internal class Program
     {

@@ -16,10 +16,43 @@ namespace _14_Spel___Gissa_tal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Välkommen till gissa talet");
-            Console.WriteLine("--------------------------");
+            bool isPlayerPlaying = true;
+            string userInput = "";
 
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Välkommen till gissa talet");
+                Console.WriteLine("--------------------------");
+                Console.WriteLine();
+                Console.Write("Vill du spela (j/n) (x för att avsluta) ? ");
 
+                userInput = Console.ReadLine().ToLower();
+
+                while (true)
+                {
+                    if (userInput == "j")
+                    {
+
+                    }
+                    else if (userInput == "n")
+                    {
+                        isPlayerPlaying = false;
+                    }
+                    else if (userInput == "x")
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.Write("Ange ett giltigt alternativ (j/n/x): ");
+                        userInput = Console.ReadLine().ToLower();
+                    }
+                }
+
+                if (userInput == "x")
+                    break;
+            }
         }
     }
 }

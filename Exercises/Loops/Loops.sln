@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Ihålig box", "Loops_10\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Sifferpyramid", "Loops_11\11 Sifferpyramid.csproj", "{89FED898-3F84-436F-BD2B-93D857658510}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_12", "Loops_12\Loops_12.csproj", "{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 Nio sifferpyramider", "Loops_12\12 Nio sifferpyramider.csproj", "{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,9 @@
-﻿namespace Loops_07
+﻿// 7.Fylld box
+// Gör ett program som ber användaren mata in höjd och bredd.
+// Printa ut en “box” med bokstaven X på skärmen med den höjd
+// och bredd som matats in.
+
+namespace Loops_07
 {
     internal class Program
     {

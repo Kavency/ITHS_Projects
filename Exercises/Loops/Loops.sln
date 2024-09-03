@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Summa", "Loops_05\05 Sum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Riskorn på shackbräde", "Loops_06\06 Riskorn på shackbräde.csproj", "{0162BB7E-AB48-4F2A-A1B5-C12BB78D4C9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_07", "Loops_07\Loops_07.csproj", "{E673CC54-8B1C-4AE9-849B-98A4B42D730D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 Fylld box", "Loops_07\07 Fylld box.csproj", "{E673CC54-8B1C-4AE9-849B-98A4B42D730D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_08", "Loops_08\Loops_08.csproj", "{66E21D94-4DE4-4113-A071-AC776E72F326}"
 EndProject

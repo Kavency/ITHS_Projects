@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Sifferpyramid", "Loops_1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 Nio sifferpyramider", "Loops_12\12 Nio sifferpyramider.csproj", "{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Primtal", "13 Primtal\13 Primtal.csproj", "{16C2AD63-04CE-454F-8670-CABB6488AFEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C2AD63-04CE-454F-8670-CABB6488AFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C2AD63-04CE-454F-8670-CABB6488AFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C2AD63-04CE-454F-8670-CABB6488AFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C2AD63-04CE-454F-8670-CABB6488AFEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

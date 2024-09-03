@@ -1,4 +1,7 @@
-﻿namespace Loops_09
+﻿// 9.Rutig box
+// Samma som uppgift 8, men med ett schackrutemönster.
+
+namespace Loops_09
 {
     internal class Program
     {

@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Jämna tal", "Loops_02\0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Var tredje Hej", "Loops_03\03 Var tredje Hej.csproj", "{816003E3-4F0D-41E4-8ABA-819A8B2710C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_04", "Loops_04\Loops_04.csproj", "{24F098C1-F257-4B16-B173-F7DA4E2C6DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Gångertabell", "Loops_04\04 Gångertabell.csproj", "{24F098C1-F257-4B16-B173-F7DA4E2C6DD6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_05", "Loops_05\Loops_05.csproj", "{3B7CC8F2-7AF1-4162-B132-14BEBA681BFE}"
 EndProject

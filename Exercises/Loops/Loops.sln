@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 Randig box", "Loops_08\0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 Rutig box", "Loops_09\09 Rutig box.csproj", "{865A0F7F-49CA-478B-B8AB-4F8DFB6DCFB9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_10", "Loops_10\Loops_10.csproj", "{DE8D6193-FE0B-485C-B88C-EC0C4DC4902A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Ihålig box", "Loops_10\10 Ihålig box.csproj", "{DE8D6193-FE0B-485C-B88C-EC0C4DC4902A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_11", "Loops_11\Loops_11.csproj", "{89FED898-3F84-436F-BD2B-93D857658510}"
 EndProject

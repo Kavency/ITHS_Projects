@@ -1,4 +1,8 @@
-﻿namespace Loops_10
+﻿// 10.Ihålig box
+// Fråga efter bredd och höjd och skriv ut en
+// “box” som inte är fylld.
+
+namespace Loops_10
 {
     internal class Program
     {

@@ -10,6 +10,18 @@ long totalSum = 0;
 
 string stringToCheck = GetUserInput("Enter a string: ");
 
+for (int i = 0; i < stringToCheck.Length; i++)
+{
+    if (char.IsDigit(stringToCheck[i]))
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(stringToCheck[i]);
+        Console.ForegroundColor = ConsoleColor.Gray;
+    }
+    else
+        Console.Write(stringToCheck[i]);
+}
+
 
 
 static string GetUserInput(string prompt)

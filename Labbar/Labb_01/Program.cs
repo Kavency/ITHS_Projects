@@ -4,8 +4,11 @@ Console.WriteLine("***************************");
 Console.WriteLine();
 Console.WriteLine();
 
+List<string> listOfSubstrings = new();
 
+long totalSum = 0;
 
+string stringToCheck = GetUserInput("Enter a string: ");
 
 
 

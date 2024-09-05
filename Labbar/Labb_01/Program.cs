@@ -6,15 +6,13 @@ Console.WriteLine();
 Console.WriteLine();
 
 List<string> listOfSubstrings = new();
-List<long> listOfNumbers = new();
 
 long totalSum = 0;
 int startInnerLoopAt = 0;
-
 char charToCompare = ' ';
-
 string tempString = string.Empty;
 string stringToCheck = GetUserInput("Enter a string: ");
+
 
 for (int i = 0; i < stringToCheck.Length; i++)
 {
@@ -23,7 +21,6 @@ for (int i = 0; i < stringToCheck.Length; i++)
 
     for (int j = startInnerLoopAt; j < stringToCheck.Length; j++)
     {
-
         if (char.IsDigit(stringToCheck[j]))
         {
             tempString += stringToCheck[j];
@@ -31,7 +28,6 @@ for (int i = 0; i < stringToCheck.Length; i++)
             if (charToCompare == stringToCheck[j] && tempString.Length > 1)
             {
                 listOfSubstrings.Add(tempString);
-                //listOfNumbers.Add(long.Parse(tempString));
                 break;
             }
         }
@@ -42,13 +38,16 @@ for (int i = 0; i < stringToCheck.Length; i++)
     startInnerLoopAt++;
 }
 
+
 foreach (var item in listOfSubstrings)
 {
     totalSum += long.Parse(item);
 }
 
+
 Console.WriteLine($"Den totala summan är: {totalSum}");
 Console.ReadKey();
+
 
 static string GetUserInput(string prompt)
 {

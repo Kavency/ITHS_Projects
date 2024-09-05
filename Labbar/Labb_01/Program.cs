@@ -1,28 +1,51 @@
-﻿Console.WriteLine("********* Labb 01 *********");
+﻿Console.Clear();
+Console.WriteLine("********* Labb 01 *********");
 Console.WriteLine("* .NET24 - Magnus Hellman *");
 Console.WriteLine("***************************");
 Console.WriteLine();
 Console.WriteLine();
 
 List<string> listOfSubstrings = new();
+List<long> listOfNumbers = new();
 
 long totalSum = 0;
+int startInnerLoopAt = 0;
 
+char charToCompare = ' ';
+
+string tempString = string.Empty;
 string stringToCheck = GetUserInput("Enter a string: ");
 
 for (int i = 0; i < stringToCheck.Length; i++)
 {
-    if (char.IsDigit(stringToCheck[i]))
+    charToCompare = stringToCheck[i];
+    tempString = string.Empty;
+
+    for (int j = startInnerLoopAt; j < stringToCheck.Length; j++)
     {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.Write(stringToCheck[i]);
-        Console.ForegroundColor = ConsoleColor.Gray;
+
+        if (char.IsDigit(stringToCheck[j]))
+        {
+            tempString += stringToCheck[j];
+
+            if (charToCompare == stringToCheck[j] && tempString.Length > 1)
+            {
+                listOfNumbers.Add(long.Parse(tempString));
+                break;
+            }
+        }
     }
-    else
-        Console.Write(stringToCheck[i]);
+
+    startInnerLoopAt++;
 }
 
+foreach (var item in listOfNumbers)
+{
+    Console.WriteLine(item);
+}
 
+Console.WriteLine();
+Console.ReadKey();
 
 static string GetUserInput(string prompt)
 {

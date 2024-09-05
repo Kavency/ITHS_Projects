@@ -30,21 +30,24 @@ for (int i = 0; i < stringToCheck.Length; i++)
 
             if (charToCompare == stringToCheck[j] && tempString.Length > 1)
             {
-                listOfNumbers.Add(long.Parse(tempString));
+                listOfSubstrings.Add(tempString);
+                //listOfNumbers.Add(long.Parse(tempString));
                 break;
             }
         }
+        else
+            break;
     }
 
     startInnerLoopAt++;
 }
 
-foreach (var item in listOfNumbers)
+foreach (var item in listOfSubstrings)
 {
-    Console.WriteLine(item);
+    totalSum += long.Parse(item);
 }
 
-Console.WriteLine();
+Console.WriteLine($"Den totala summan är: {totalSum}");
 Console.ReadKey();
 
 static string GetUserInput(string prompt)

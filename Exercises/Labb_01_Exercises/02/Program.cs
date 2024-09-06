@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string text = "Hello world";
+
+            foreach (char item in text)
+            {
+                if (item == ' ')
+                {
+                    Console.WriteLine();
+                    continue;
+                }
+
+                Console.Write(item);
+            }
+
+            Console.ReadKey();
         }
     }
 }

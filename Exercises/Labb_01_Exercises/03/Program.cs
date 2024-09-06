@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string text = "Hello world";
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (i % 2 == 0)
+                    Console.Write("*");
+                else
+                    Console.Write(text[i]);
+            }
+
+            Console.ReadKey();
         }
     }
 }

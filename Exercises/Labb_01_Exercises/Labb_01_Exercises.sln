@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labb_01_Exercises", "Labb_01_Exercises.csproj", "{4E428912-0481-4C13-BC97-96B241FE6BC1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05", "05\05.csproj", "{83F8FAB6-4547-49C1-ADCD-0ACC4B42123E}"
 EndProject
 Global

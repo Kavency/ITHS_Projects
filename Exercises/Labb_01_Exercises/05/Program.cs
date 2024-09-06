@@ -4,29 +4,32 @@
     {
         static void Main(string[] args)
         {
-            string text = "Hello world";
-            string newText = string.Empty;
+            string text = "Hello world!!!";
 
             for (int i = 0; i < text.Length - 1; i++)
             {
-                Console.ResetColor();
-
                 if (i > 0 && text[i] == text[i - 1])
-                {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write(text[i]);
-                    
-                }
+
                 else if (text[i] == text[i + 1])
-                {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write(text[i]);
-                }
 
                 else
-                {
                     Console.ForegroundColor = ConsoleColor.Gray;
-                    Console.Write(text[i]);
+                
+                Console.Write(text[i]);
+
+                if (i == text.Length - 2)
+                {
+                    if (text[i] == text[i + 1])
+                        Console.ForegroundColor = ConsoleColor.Green;
+
+                    else
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                    
+                    Console.WriteLine(text[i + 1]);
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    break;
                 }
             }
         }

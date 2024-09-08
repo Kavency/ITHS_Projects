@@ -5,64 +5,70 @@ int startInnerLoopAt = 0;
 char charToCompare = ' ';
 string coloredNumbers = string.Empty;
 
-PrintHeader();
 
-string userInput = GetUserInput("Enter a string: ");
-
-PrintDivider(userInput);
-
-for (int i = 0; i < userInput.Length; i++)
+while (true)
 {
-    charToCompare = userInput[i];
-    coloredNumbers = string.Empty;
+    PrintHeader();
 
-    for (int j = startInnerLoopAt; j < userInput.Length; j++)
+    string userInput = GetUserInput("Enter a string: ");
+
+    PrintDivider(userInput);
+
+    for (int i = 0; i < userInput.Length; i++)
     {
-        if (char.IsDigit(userInput[j]))
+        charToCompare = userInput[i];
+        coloredNumbers = string.Empty;
+
+        for (int j = startInnerLoopAt; j < userInput.Length; j++)
         {
-            coloredNumbers += userInput[j];
-
-            if (charToCompare == userInput[j] && coloredNumbers.Length > 1)
+            if (char.IsDigit(userInput[j]))
             {
-                listOfColoredNumbers.Add(coloredNumbers);
-                break;
+                coloredNumbers += userInput[j];
+
+                if (charToCompare == userInput[j] && coloredNumbers.Length > 1)
+                {
+                    listOfColoredNumbers.Add(coloredNumbers);
+                    break;
+                }
             }
+            else
+                break;
         }
-        else
-            break;
+        startInnerLoopAt++;
     }
-    startInnerLoopAt++;
-}
 
-if (listOfColoredNumbers.Count >= 1)
-{
-    foreach (string item in listOfColoredNumbers)
+    if (listOfColoredNumbers.Count >= 1)
     {
-        totalSum += long.Parse(item);
+        foreach (string item in listOfColoredNumbers)
+        {
+            totalSum += long.Parse(item);
 
-        string[] tmp = userInput.Split(item);
+            string[] tmp = userInput.Split(item);
         
-        Console.ForegroundColor = ConsoleColor.DarkGray;
-        Console.Write(tmp[0]);
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.Write(item);
-        Console.ForegroundColor = ConsoleColor.DarkGray;
-        Console.Write(tmp[1]);
-        Console.WriteLine();
-        Thread.Sleep(150);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.Write(tmp[0]);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(item);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.Write(tmp[1]);
+            Console.WriteLine();
+            Thread.Sleep(150);
+        }
     }
-}
-else
-{
-    Console.Write("No duplicate numbers found in string: ");
-    Console.WriteLine(userInput);
+    else
+    {
+        Console.Write("No duplicate numbers found in string: ");
+        Console.WriteLine(userInput);
+    }
+
+    PrintDivider(userInput);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine($"Total amount = {totalSum}");
+    PrintDivider(userInput);
+    Console.ReadKey();
+
 }
 
-PrintDivider(userInput);
-Console.ForegroundColor = ConsoleColor.Gray;
-Console.WriteLine($"Total amount = {totalSum}");
-PrintDivider(userInput);
-Console.ReadKey();
 
 
 

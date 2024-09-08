@@ -1,14 +1,15 @@
-﻿PrintHeader();
-
-List<string> listOfColoredNumbers = new();
+﻿List<string> listOfColoredNumbers = new();
 
 long totalSum = 0;
 int startInnerLoopAt = 0;
 char charToCompare = ' ';
 string coloredNumbers = string.Empty;
 
+PrintHeader();
 
 string userInput = GetUserInput("Enter a string: ");
+
+PrintDivider(userInput);
 
 for (int i = 0; i < userInput.Length; i++)
 {
@@ -40,13 +41,15 @@ if (listOfColoredNumbers.Count >= 1)
         totalSum += long.Parse(item);
 
         string[] tmp = userInput.Split(item);
-
+        
+        Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.Write(tmp[0]);
         Console.ForegroundColor = ConsoleColor.Green;
         Console.Write(item);
-        Console.ForegroundColor = ConsoleColor.Gray;
+        Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.Write(tmp[1]);
         Console.WriteLine();
+        Thread.Sleep(150);
     }
 }
 else
@@ -55,9 +58,13 @@ else
     Console.WriteLine(userInput);
 }
 
-Console.WriteLine();
+PrintDivider(userInput);
+Console.ForegroundColor = ConsoleColor.Gray;
 Console.WriteLine($"Total amount = {totalSum}");
+PrintDivider(userInput);
 Console.ReadKey();
+
+
 
 
 static string GetUserInput(string prompt)
@@ -71,6 +78,7 @@ static string GetUserInput(string prompt)
     return input;
 }
 
+
 static void PrintHeader()
 {
     Console.Clear();
@@ -78,5 +86,18 @@ static void PrintHeader()
     Console.WriteLine("* .NET24 - Magnus Hellman *");
     Console.WriteLine("***************************");
     Console.WriteLine();
+    Console.WriteLine();
+}
+
+
+static void PrintDivider(string input)
+{
+    Console.ForegroundColor = ConsoleColor.Gray;
+
+    foreach (char item in input)
+    {
+        Console.Write('-');
+    }
+
     Console.WriteLine();
 }

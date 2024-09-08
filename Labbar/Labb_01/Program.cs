@@ -14,47 +14,45 @@ long totalSum = 0;
 int startInnerLoopAt = 0;
 char charToCompare = ' ';
 string coloredNumbers = string.Empty;
-string subString = string.Empty;
 
 
-string stringToCheck = GetUserInput("Enter a string: ");
+string userInput = GetUserInput("Enter a string: ");
 
-for (int i = 0; i < stringToCheck.Length; i++)
+for (int i = 0; i < userInput.Length; i++)
 {
-    charToCompare = stringToCheck[i];
+    charToCompare = userInput[i];
     coloredNumbers = string.Empty;
 
-    for (int j = startInnerLoopAt; j < stringToCheck.Length; j++)
+    for (int j = startInnerLoopAt; j < userInput.Length; j++)
     {
-        if (char.IsDigit(stringToCheck[j]))
+        if (char.IsDigit(userInput[j]))
         {
-            coloredNumbers += stringToCheck[j];
+            coloredNumbers += userInput[j];
 
-            if (charToCompare == stringToCheck[j] && coloredNumbers.Length > 1)
+            if (charToCompare == userInput[j] && coloredNumbers.Length > 1)
             {
                 listOfColoredNumbers.Add(coloredNumbers);
-
-                //for (int k = 0; k < coloredNumbers.Length; k++)
-                //{
-                //    Console.ForegroundColor = ConsoleColor.Green;
-                //    Console.Write(coloredNumbers[k]);
-                //    Console.ForegroundColor = ConsoleColor.Gray;
-                //    continue;
-                //}
-                subString = stringToCheck.Substring(i, coloredNumbers.Length);
                 break;
             }
         }
         else
             break;
     }
-    Console.WriteLine(subString);  // Skriver ut dubbelt när den stöter på en bokstav.
     startInnerLoopAt++;
 }
 
 foreach (string item in listOfColoredNumbers)
 {
     totalSum += long.Parse(item);
+
+    string[] tmp = userInput.Split(item);
+
+    Console.Write(tmp[0]);
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.Write(item);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.Write(tmp[1]);
+    Console.WriteLine();
 }
 
 // Todo: OM listOfColoredNumbers är tom. Skriv ut stringToCheck en gång i grått.

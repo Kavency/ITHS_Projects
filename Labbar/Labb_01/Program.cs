@@ -1,11 +1,4 @@
-﻿using System.Xml.Linq;
-
-Console.Clear();
-Console.WriteLine("********* Labb 01 *********");
-Console.WriteLine("* .NET24 - Magnus Hellman *");
-Console.WriteLine("***************************");
-Console.WriteLine();
-Console.WriteLine();
+﻿PrintHeader();
 
 List<string> listOfColoredNumbers = new();
 
@@ -58,7 +51,8 @@ if (listOfColoredNumbers.Count >= 1)
 }
 else
 {
-    Console.WriteLine("No duplicate numbers found.");
+    Console.Write("No duplicate numbers found in string: ");
+    Console.WriteLine(userInput);
 }
 
 // Todo: OM listOfColoredNumbers är tom. Skriv ut stringToCheck en gång i grått.
@@ -78,4 +72,14 @@ static string GetUserInput(string prompt)
         return "29535123p48723487597645723645";
 
     return input;
+}
+
+static void PrintHeader()
+{
+    Console.Clear();
+    Console.WriteLine("********* Labb 01 *********");
+    Console.WriteLine("* .NET24 - Magnus Hellman *");
+    Console.WriteLine("***************************");
+    Console.WriteLine();
+    Console.WriteLine();
 }

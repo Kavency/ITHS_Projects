@@ -8,7 +8,6 @@ Console.WriteLine();
 Console.WriteLine();
 
 List<string> listOfColoredNumbers = new();
-List<string> listOfSubStrings = new();
 
 long totalSum = 0;
 int startInnerLoopAt = 0;
@@ -41,25 +40,32 @@ for (int i = 0; i < userInput.Length; i++)
     startInnerLoopAt++;
 }
 
-foreach (string item in listOfColoredNumbers)
+if (listOfColoredNumbers.Count >= 1)
 {
-    totalSum += long.Parse(item);
+    foreach (string item in listOfColoredNumbers)
+    {
+        totalSum += long.Parse(item);
 
-    string[] tmp = userInput.Split(item);
+        string[] tmp = userInput.Split(item);
 
-    Console.Write(tmp[0]);
-    Console.ForegroundColor = ConsoleColor.Green;
-    Console.Write(item);
-    Console.ForegroundColor = ConsoleColor.Gray;
-    Console.Write(tmp[1]);
-    Console.WriteLine();
+        Console.Write(tmp[0]);
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(item);
+        Console.ForegroundColor = ConsoleColor.Gray;
+        Console.Write(tmp[1]);
+        Console.WriteLine();
+    }
+}
+else
+{
+    Console.WriteLine("No duplicate numbers found.");
 }
 
 // Todo: OM listOfColoredNumbers är tom. Skriv ut stringToCheck en gång i grått.
 
 
 Console.WriteLine();
-Console.WriteLine($"Den totala summan är: {totalSum}");
+Console.WriteLine($"Total amount = {totalSum}");
 Console.ReadKey();
 
 

@@ -55,9 +55,6 @@ else
     Console.WriteLine(userInput);
 }
 
-// Todo: OM listOfColoredNumbers är tom. Skriv ut stringToCheck en gång i grått.
-
-
 Console.WriteLine();
 Console.WriteLine($"Total amount = {totalSum}");
 Console.ReadKey();

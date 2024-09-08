@@ -1,13 +1,12 @@
-﻿List<string> listOfColoredNumbers = new();
-
-long totalSum = 0;
-int startInnerLoopAt = 0;
-char charToCompare = ' ';
-string coloredNumbers = string.Empty;
-
-
-while (true)
+﻿while (true)
 {
+    List<string> listOfColoredNumbers = new();
+
+    long totalSum = 0;
+    int startInnerLoopAt = 0;
+    char charToCompare = ' ';
+    string coloredNumbers = string.Empty;
+
     PrintHeader();
 
     string userInput = GetUserInput("Enter a string: ");
@@ -52,7 +51,7 @@ while (true)
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.Write(tmp[1]);
             Console.WriteLine();
-            Thread.Sleep(150);
+            Thread.Sleep(100);
         }
     }
     else
@@ -65,8 +64,14 @@ while (true)
     Console.ForegroundColor = ConsoleColor.Gray;
     Console.WriteLine($"Total amount = {totalSum}");
     PrintDivider(userInput);
-    Console.ReadKey();
+    Console.WriteLine();
+    
+    Console.WriteLine("Press any key to run again, press Esc to exit.");
+    ConsoleKeyInfo keyPressed = Console.ReadKey(true);
+    keyPressed.ToString();
 
+    if (keyPressed.Key == ConsoleKey.Escape)
+        break;
 }
 
 

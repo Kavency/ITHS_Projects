@@ -19,20 +19,6 @@
                 
                 Console.Write(text[i]);
 
-                // Kontrollera om vi bifinner oss på näst sista index.
-                // Om så, kontrollera och skriv ut nästa bokstav, bryt sedan loopen.
-                //if (i == text.Length - 2)
-                //{
-                //    if (text[i] == text[i + 1])
-                //        Console.ForegroundColor = ConsoleColor.Green;
-
-                //    else
-                //        Console.ForegroundColor = ConsoleColor.Gray;
-
-                //    Console.WriteLine(text[i + 1]);
-                //    
-                //    break;
-                //}
                 Console.ForegroundColor = ConsoleColor.Gray;
             }
         }

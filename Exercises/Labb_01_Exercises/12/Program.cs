@@ -10,7 +10,27 @@ namespace _12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string text = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?";
+            string[] textArray = text.Split(' ');
+            int wordNumber = 1;
+
+            for (int i = 0; i < textArray.Length; i++)
+            {
+                for (int j = 0; j < textArray.Length; j++)
+                {
+                    if(wordNumber == j + 1)
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    
+                    else
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                    
+                    Console.Write(textArray[j] + " ");
+                }
+
+                Console.WriteLine();
+                wordNumber++;
+            }
+            Console.ForegroundColor = ConsoleColor.Gray;
         }
     }
 }

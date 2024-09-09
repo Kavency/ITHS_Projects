@@ -15,7 +15,15 @@
                 {
                     int subStringIndex = text.IndexOf(subString, i);
 
-                    Console.Write(i);
+                    if (i == subStringIndex)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.Write(subString);
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                        i += 4;
+                    }
+                    else
+                        Console.Write(text[i]);
                 }
             }
         }

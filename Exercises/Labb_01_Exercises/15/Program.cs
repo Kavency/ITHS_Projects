@@ -15,6 +15,15 @@ namespace _15
 
             Console.Write("Enter a string: ");
             userInput = Console.ReadLine();
+
+            for (int i = 0; i < userInput.Length; i++)
+            {
+                for (int j = 0; j < userInput.Length; j++)
+                {
+                    Console.Write(userInput[j]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }

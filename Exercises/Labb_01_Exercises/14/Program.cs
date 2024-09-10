@@ -11,13 +11,22 @@ namespace _14
         static void Main(string[] args)
         {
             string userInput = string.Empty;
-            
+            Console.ForegroundColor = ConsoleColor.Gray;
+
             Console.Write("Enter a string:> ");
             userInput = Console.ReadLine();
 
-            // Skriv ut sträng bokstav för bokstav.
+            char firstChar = userInput[0]; // Out of bounds if userInput is null.
+            int indexOfNextChar = userInput.IndexOf(firstChar, 1);
+
             for (int i = 0; i < userInput.Length; i++)
             {
+                if (i < indexOfNextChar + 1)
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                else
+                    Console.ForegroundColor = ConsoleColor.Gray;
+
                 Console.Write(userInput[i]);
             }
 

@@ -12,6 +12,9 @@ namespace _15
         static void Main(string[] args)
         {
             string userInput = string.Empty;
+
+            Console.Write("Enter a string: ");
+            userInput = Console.ReadLine();
         }
     }
 }

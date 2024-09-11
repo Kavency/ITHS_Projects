@@ -10,24 +10,19 @@ namespace _02_Siffror_till_text
     {
         static void Main(string[] args)
         {
+            string[] numbersAsText = { "Zero", "One", "Two", "Three", 
+                "Four", "Five", "Six", "Seven", "Eight", "Nine" };
+            
             while (true)
             {
                 Console.Write("Enter a single digit: ");
                 string userInput = Console.ReadLine();
 
-                if (userInput != null && char.IsDigit(userInput[0]) && userInput.Length == 1)
+                if (userInput != "" && char.IsDigit(userInput[0]) && userInput.Length == 1)
                 {
-                    ReturnNumerAsText(Int32.Parse(userInput));
+                    Console.WriteLine(numbersAsText[Int32.Parse(userInput)]);
                 }
             }
-        }
-
-        static void ReturnNumerAsText(int n)
-        {
-            string[] numbersAsText = { "Zero", "One", "Two", "Three", 
-                "Four", "Five", "Six", "Seven", "Eight", "Nine" };
-
-            Console.WriteLine(numbersAsText[n]);
         }
     }
 }

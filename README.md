@@ -3,4 +3,13 @@ This is a repository where I collect all the work related to my journey towards 
 
 ## Sections:
 
-Exercises - Within this folder lies all the exercises given to us by our teachers.
+### Exercises
+Within this folder lies all the exercises given to us by our teachers.
+
+### Labbar
+
+This is where special assignments resides. These assignments counts towards the grade given at the end.
+
+### Project Euler
+
+I will try to solve puzzles from the Project Euler website, given there is time for it. These solutions will reside in this section.

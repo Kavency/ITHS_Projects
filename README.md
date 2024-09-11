@@ -14,4 +14,4 @@ This is where special assignments resides. These assignments counts towards the 
 
 ### Project Euler
 
-I will try to solve puzzles from the Project Euler website, given there is time for it. These solutions will reside in this section.
+I will try to solve puzzles from the [Project Euler](https://projecteuler.net/archives) website, given there is time for it. These solutions will reside in this section.

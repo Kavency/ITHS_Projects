@@ -5,13 +5,13 @@ Feel free to browse around. 😊
 
 ## Sections:
 
-### Exercises
+### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this folder lies all the exercises given to us by our teachers.
 
-### Labbar
+### [Labbar](https://github.com/Kavency/ITHS_Projects/tree/Release/Labbar)
 
 This is where special assignments resides. These assignments counts towards the grade given at the end.
 
-### Project Euler
+### [Project Euler](https://github.com/Kavency/ITHS_Projects/tree/Release/ProjectEuler)
 
 I will try to solve puzzles from the [Project Euler](https://projecteuler.net/archives) website, given there is time for it. These solutions will reside in this section.

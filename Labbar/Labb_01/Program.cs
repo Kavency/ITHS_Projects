@@ -1,22 +1,22 @@
 ﻿while (true)
 {
     List<string> listOfColoredNumbers = new();
-
     long totalSum = 0;
     int startInnerLoopAt = 0;
-    char charToCompare = ' ';
-    string coloredNumbers = string.Empty;
 
     PrintHeader();
-
+    Console.WriteLine("Enter a string or press enter for a default string.");
     string userInput = GetUserInput("Enter a string: ");
-
     PrintDivider(userInput);
 
+    //
+    // Iterate through the string to find numbers starting and ending
+    // with the same digit.
+    //
     for (int i = 0; i < userInput.Length; i++)
     {
-        charToCompare = userInput[i];
-        coloredNumbers = string.Empty;
+        char charToCompare = userInput[i];
+        string coloredNumbers = string.Empty;
 
         for (int j = startInnerLoopAt; j < userInput.Length; j++)
         {
@@ -36,6 +36,9 @@
         startInnerLoopAt++;
     }
 
+    //
+    // Display the result to the user
+    //
     if (listOfColoredNumbers.Count >= 1)
     {
         foreach (string item in listOfColoredNumbers)
@@ -51,7 +54,7 @@
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.Write(tmp[1]);
             Console.WriteLine();
-            Thread.Sleep(100);
+            Thread.Sleep(110);
         }
     }
     else
@@ -75,9 +78,9 @@
 }
 
 
-
-
-
+//
+// Methods
+//
 static string GetUserInput(string prompt)
 {
     Console.Write(prompt);
@@ -89,7 +92,6 @@ static string GetUserInput(string prompt)
     return input;
 }
 
-
 static void PrintHeader()
 {
     Console.Clear();
@@ -97,9 +99,7 @@ static void PrintHeader()
     Console.WriteLine("* .NET24 - Magnus Hellman *");
     Console.WriteLine("***************************");
     Console.WriteLine();
-    Console.WriteLine();
 }
-
 
 static void PrintDivider(string input)
 {

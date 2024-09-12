@@ -8,9 +8,9 @@ Feel free to browse around. 😊
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this folder lies all the exercises given to us by our teachers.
 
-### [Labbar](https://github.com/Kavency/ITHS_Projects/tree/Release/Labbar)
+### Labbar
 
-This is where special assignments resides. These assignments counts towards the grade given at the end.
+This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public.
 
 ### [Project Euler](https://github.com/Kavency/ITHS_Projects/tree/Release/ProjectEuler)
 

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 En bokstav på varje rad", "01 En bokstav på varje rad\01 En bokstav på varje rad.csproj", "{EA94870B-FD33-4AC9-A746-F7FCFB07F2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 En bokstav på varje rad", "01 En bokstav på varje rad\01 En bokstav på varje rad.csproj", "{EA94870B-FD33-4AC9-A746-F7FCFB07F2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Siffror till text", "02 Siffror till text\02 Siffror till text.csproj", "{45B362E5-0DFE-48D9-B8A7-DDDCD1C2D301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Siffror till text", "02 Siffror till text\02 Siffror till text.csproj", "{45B362E5-0DFE-48D9-B8A7-DDDCD1C2D301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Baklänges", "03 Baklänges\03 Baklänges.csproj", "{799D9358-ACE3-4A01-B482-5DB28E84BE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Dölj vokaler", "04 Dölj vokaler\04 Dölj vokaler.csproj", "{997B1F9C-A44B-4D89-8474-47E117C03FDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{45B362E5-0DFE-48D9-B8A7-DDDCD1C2D301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45B362E5-0DFE-48D9-B8A7-DDDCD1C2D301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45B362E5-0DFE-48D9-B8A7-DDDCD1C2D301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799D9358-ACE3-4A01-B482-5DB28E84BE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799D9358-ACE3-4A01-B482-5DB28E84BE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799D9358-ACE3-4A01-B482-5DB28E84BE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799D9358-ACE3-4A01-B482-5DB28E84BE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

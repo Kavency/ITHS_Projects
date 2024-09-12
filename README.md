@@ -3,7 +3,7 @@ My name is Magnus and I'm currently studying to become a .NET developer. In this
 
 Feel free to browse around. 😊
 
-## Sections:
+## Links to different prejects:
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this folder lies all the exercises given to us by our teachers.

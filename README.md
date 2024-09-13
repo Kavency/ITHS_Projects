@@ -12,6 +12,6 @@ Within this folder lies all the exercises given to us by our teachers.
 
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public.
 
-### [Project Euler](https://github.com/Kavency/ITHS_Projects/tree/Release/ProjectEuler)
+### [Project Euler](https://github.com/Kavency/Project_Euler)
 
 I will try to solve puzzles from the [Project Euler](https://projecteuler.net/archives) website, given there is time for it. These solutions will reside in this section.

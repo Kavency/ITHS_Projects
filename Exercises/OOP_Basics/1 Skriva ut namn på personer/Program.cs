@@ -8,6 +8,13 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Person Kalle = new Person() { FirstName = "Kalle", LastName = "Anka"};
+        Person Kajsa = new Person() { LastName = "Kajsa", FirstName = "Anka" };
     }
+}
+
+class Person
+{
+    public string FirstName;
+    public string LastName;
 }

@@ -64,4 +64,9 @@ class Person
         _Height = height;
     }
 
+    public double GetHeight()
+    {
+        return _Height;
+    }
+
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Skriva ut namn på perso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Metod returnerar namnet", "02 Metod returnerar namnet\02 Metod returnerar namnet.csproj", "{9ECD44E2-DA3E-452C-83D0-23B1BB8EBD13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Metod returnerar namnet baklänges", "03 Metod returnerar namnet baklänges\03 Metod returnerar namnet baklänges.csproj", "{421A9CC9-7A7E-42CB-BF69-6499CD8B0D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9ECD44E2-DA3E-452C-83D0-23B1BB8EBD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ECD44E2-DA3E-452C-83D0-23B1BB8EBD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ECD44E2-DA3E-452C-83D0-23B1BB8EBD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421A9CC9-7A7E-42CB-BF69-6499CD8B0D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421A9CC9-7A7E-42CB-BF69-6499CD8B0D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421A9CC9-7A7E-42CB-BF69-6499CD8B0D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421A9CC9-7A7E-42CB-BF69-6499CD8B0D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

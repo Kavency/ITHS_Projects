@@ -10,7 +10,8 @@ Person kajsa = new Person() { LastName = "Kajsa", FirstName = "Anka" };
 kalle.Mother = new Person() { FirstName = "Lisa", LastName = "Anka" };
 
 Console.WriteLine(kalle.GetSelfAndParents());
-
+kalle.SetHeight(1.27);
+Console.WriteLine(kalle.GetHeight());
 
 
 

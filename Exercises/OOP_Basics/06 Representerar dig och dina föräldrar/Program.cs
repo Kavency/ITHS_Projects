@@ -17,6 +17,9 @@
 Person kalle = new Person() { FirstName = "Kalle", LastName = "Anka" };
 Person kajsa = new Person() { LastName = "Kajsa", FirstName = "Anka" };
 
+kalle.Mother = new Person() { FirstName = "Lisa", LastName = "Anka" };
+
+
 Console.WriteLine(kalle.ReturnFullNameReversed());
 
 class Person

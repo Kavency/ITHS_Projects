@@ -13,6 +13,6 @@ class Person
 
     public string GetFullName()
     {
-        return     $"{this.FirstName} {this.LastName}";
+        return $"{this.FirstName} {this.LastName}";
     }
 }

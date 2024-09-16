@@ -3,6 +3,10 @@
 // returnerar en sträng med hela namnet baklänges. Låt denna metoden använda
 // sig av metoden i uppgift 2.
 
+Person kalle = new Person() { FirstName = "Kalle", LastName = "Anka" };
+Person kajsa = new Person() { LastName = "Kajsa", FirstName = "Anka" };
+
+Console.WriteLine(kalle.ReturnFullNameReversed());
 
 class Person
 {
@@ -19,7 +23,7 @@ class Person
         string fullName = GetFullName();
         string fullNameReversed = string.Empty;
 
-        for (int i = fullName.Length; i > 0; i--)
+        for (int i = fullName.Length - 1; i >= 0; i--)
         {
             fullNameReversed += fullName[i];
         }

@@ -18,6 +18,9 @@ class Person
     public string FirstName;
     public string LastName;
 
+    public Person Mother;
+    public Person Father;
+
     public string GetFullName()
     {
         return $"{this.FirstName} {this.LastName}";

@@ -18,6 +18,11 @@ class Person
         return $"{this.FirstName} {this.LastName}";
     }
 
+    public string GetFullName(string titel)
+    {
+        return $"{titel} {this.FirstName} {this.LastName}";
+    }
+
     public string ReturnFullNameReversed()
     {
         string fullName = GetFullName();

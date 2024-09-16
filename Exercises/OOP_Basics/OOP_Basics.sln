@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Metod returnerar namnet 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Overload av GetFullName", "04 Overload av GetFullName\04 Overload av GetFullName.csproj", "{556CD721-0BF8-46FC-9D9F-042205449F42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Personers föräldrar.", "05 Personers föräldrar\05 Personers föräldrar..csproj", "{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{556CD721-0BF8-46FC-9D9F-042205449F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556CD721-0BF8-46FC-9D9F-042205449F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556CD721-0BF8-46FC-9D9F-042205449F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

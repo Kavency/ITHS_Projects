@@ -79,4 +79,10 @@ class Person
     {
         return _Weight;
     }
+
+    public double GetBMI()
+    {
+        // Add BMI math.
+        return 0.0D;
+    }
 }

@@ -16,7 +16,15 @@ class Person
 
     public string ReturnFullNameReversed()
     {
-        return 
+        string fullName = GetFullName();
+        string fullNameReversed = string.Empty;
+
+        for (int i = fullName.Length; i > 0; i--)
+        {
+            fullNameReversed += fullName[i];
+        }
+
+        return fullNameReversed;
     }
 
 }

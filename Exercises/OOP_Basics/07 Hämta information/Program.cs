@@ -7,15 +7,14 @@
 Person kalle = new Person() { FirstName = "Kalle", LastName = "Anka" };
 Person kajsa = new Person() { LastName = "Kajsa", FirstName = "Anka" };
 
-kalle.Mother = new Person() { FirstName = "Lisa", LastName = "Anka" };
-kalle.Father = new Person() { FirstName = "Jonas", LastName = "Anka" };
+//kalle.Mother = new Person() { FirstName = "Lisa", LastName = "Anka" };
 
 Console.WriteLine(kalle.GetSelfAndParents());
 
 class Person
 {
-    public string FirstName;
-    public string LastName;
+    public string FirstName = string.Empty;
+    public string LastName = string.Empty;
 
     public Person Mother;
     public Person Father;
@@ -45,10 +44,12 @@ class Person
 
     public string GetSelfAndParents()
     {
-        Console.WriteLine(GetFullName());
-        Console.WriteLine(this.Mother.GetFullName());
-        Console.WriteLine(this.Father.GetFullName());
-        return "";
+        if (this.Mother == null)
+            this.Mother = new Person() { FirstName = "Okänd" };
+        if (this.Father == null)
+            this.Father = new Person() { FirstName = "Okänd" };
+
+        return $"{this.GetFullName()} - Mor: {this.Mother.GetFullName()} - Far: {this.Father.GetFullName()}";
     }
 
 }

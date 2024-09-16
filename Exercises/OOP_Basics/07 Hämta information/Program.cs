@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 7.Hämta information om dig och dina föräldrar.
+// Lägg till en public string GetSelfAndParents() som returnerar en sträng
+// på formatet "Ditt Namn - Mamma: Mammans Namn - Pappa: Pappans namn".
+// Om mammans eller pappans namn saknas (null) markera det med "okänd" i 
+// strängen. Exempel: "Fredrik Johansson - Mamma: okänd - Pappa: Göran Johansson"
+

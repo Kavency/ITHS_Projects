@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Overload av GetFullName"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Personers föräldrar.", "05 Personers föräldrar\05 Personers föräldrar..csproj", "{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Representerar dig och dina föräldrar", "06 Representerar dig och dina föräldrar\06 Representerar dig och dina föräldrar.csproj", "{B246D95B-CB5E-4625-86CC-D77594013635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416DE610-2B30-4A4F-A7A1-D52CB26CFEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B246D95B-CB5E-4625-86CC-D77594013635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B246D95B-CB5E-4625-86CC-D77594013635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B246D95B-CB5E-4625-86CC-D77594013635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B246D95B-CB5E-4625-86CC-D77594013635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

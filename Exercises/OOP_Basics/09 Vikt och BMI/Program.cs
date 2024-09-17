@@ -9,11 +9,10 @@ Person kajsa = new Person() { LastName = "Kajsa", FirstName = "Anka" };
 kalle.Mother = new Person() { FirstName = "Lisa", LastName = "Anka" };
 
 Console.WriteLine(kalle.GetSelfAndParents());
-kalle.SetHeight(1.27);
+kalle.SetHeight(1.8);
+kalle.SetWeight(87);
 Console.WriteLine(kalle.GetHeight());
-
-
-
+Console.WriteLine(kalle.GetBMI());
 
 
 class Person
@@ -82,7 +81,6 @@ class Person
 
     public double GetBMI()
     {
-        // Add BMI math.
-        return 0.0D;
+        return _Weight / (Math.Pow(_Height, 2));
     }
 }

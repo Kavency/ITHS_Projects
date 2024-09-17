@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Sifferpyramid", "Loops_1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 Nio sifferpyramider", "Loops_12\12 Nio sifferpyramider.csproj", "{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Primtal", "13 Primtal\13 Primtal.csproj", "{16C2AD63-04CE-454F-8670-CABB6488AFEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 Primtal", "13 Primtal\13 Primtal.csproj", "{16C2AD63-04CE-454F-8670-CABB6488AFEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Spel - Gissa tal", "14 Spel - Gissa tal\14 Spel - Gissa tal.csproj", "{2C90BB0D-3CEE-4554-B266-EF43C1D2DABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14 Spel - Gissa tal", "14 Spel - Gissa tal\14 Spel - Gissa tal.csproj", "{2C90BB0D-3CEE-4554-B266-EF43C1D2DABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Sten sax påse", "15 Sten sax påse\15 Sten sax påse.csproj", "{835AE2F8-EBD2-442A-A804-B22E59F6D4B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{2C90BB0D-3CEE-4554-B266-EF43C1D2DABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C90BB0D-3CEE-4554-B266-EF43C1D2DABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C90BB0D-3CEE-4554-B266-EF43C1D2DABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835AE2F8-EBD2-442A-A804-B22E59F6D4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835AE2F8-EBD2-442A-A804-B22E59F6D4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835AE2F8-EBD2-442A-A804-B22E59F6D4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835AE2F8-EBD2-442A-A804-B22E59F6D4B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,40 +3,39 @@
 // varje element innehåller ordet för varje siffra i talet.
 
 Console.Write("Enter a number: ");
-int number = Int32.Parse(Console.ReadLine());
+string number = Console.ReadLine();
 
 foreach (string item in NumbersToText(number))
 {
     Console.Write(item + " ");
 }
 
-string[] NumbersToText(int number)
+string[] NumbersToText(string number)
 {
-    string numberAsString = number.ToString();
-    string[] returnArray = new string[numberAsString.Length];
+    string[] returnArray = new string[number.Length];
 
-	for(int i = 0; i < numberAsString.Length; i++)
+	for(int i = 0; i < number.Length; i++)
     {
 
-        if (numberAsString[i] == '0')
+        if (number[i] == '0')
             returnArray[i] = "Zero";
-        else if(numberAsString[i] == '1')
+        else if(number[i] == '1')
             returnArray[i] = "One";
-        else if (numberAsString[i] == '2')
+        else if (number[i] == '2')
             returnArray[i] = "Two";
-        else if (numberAsString[i] == '3')
+        else if (number[i] == '3')
             returnArray[i] = "Three";
-        else if (numberAsString[i] == '4')
+        else if (number[i] == '4')
             returnArray[i] = "Four";
-        else if (numberAsString[i] == '5')
+        else if (number[i] == '5')
             returnArray[i] = "Five";
-        else if (numberAsString[i] == '6')
+        else if (number[i] == '6')
             returnArray[i] = "Six";
-        else if (numberAsString[i] == '7')
+        else if (number[i] == '7')
             returnArray[i] = "Seven";
-        else if (numberAsString[i] == '8')
+        else if (number[i] == '8')
             returnArray[i] = "Eight";
-        else if (numberAsString[i] == '9')
+        else if (number[i] == '9')
             returnArray[i] = "Nine";
     }
 

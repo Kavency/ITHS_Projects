@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Dölj vokaler", "04 Döl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Palindrom", "05 Palindrom\05 Palindrom.csproj", "{623CF051-5A5D-450D-9857-5D43363A2FEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Miniräknare", "06 Miniräknare\06 Miniräknare.csproj", "{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

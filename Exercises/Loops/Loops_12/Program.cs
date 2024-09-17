@@ -10,17 +10,43 @@ namespace Loops_12
         static void Main(string[] args)
         {
             string numbers = "";
-            int lineNumber = 0;
+            int rowNumber = 0;
+            //List<string> numberList = new List<string>();
 
-            for (int i = 1; i < 10; i++)
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    numbers += i.ToString();
+            //    numberList.Add(numbers);
+            //}
+
+            //for (int i = 0; i < numberList.Count; i++)
+            //{
+            //    for (int j = 0; j <= rowNumber; j++)
+            //    {
+            //        Console.WriteLine(numberList[j]);
+            //    }
+            //    Console.WriteLine();
+            //    rowNumber++;
+            //}
+
+
+
+            string numbersTwo = "123456789";
+
+            for (int i = 0; i < rowNumber; i++)
             {
-                numbers += i.ToString();
-                lineNumber++;
 
-                if (lineNumber != 1 && lineNumber == numbers.Length)
-                    Console.WriteLine();
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write(numbersTwo[j]);
+                    if (j == rowNumber - 1)
+                    {
+                        Console.WriteLine();
+                    }
 
-                Console.WriteLine(numbers);
+                }
+                Console.WriteLine();
+                rowNumber++;
             }
         }
     }

@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 En bokstav på varje rad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Siffror till text", "02 Siffror till text\02 Siffror till text.csproj", "{45B362E5-0DFE-48D9-B8A7-DDDCD1C2D301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Baklänges", "03 Baklänges\03 Baklänges.csproj", "{799D9358-ACE3-4A01-B482-5DB28E84BE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Baklänges", "03 Baklänges\03 Baklänges.csproj", "{799D9358-ACE3-4A01-B482-5DB28E84BE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Dölj vokaler", "04 Dölj vokaler\04 Dölj vokaler.csproj", "{997B1F9C-A44B-4D89-8474-47E117C03FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Dölj vokaler", "04 Dölj vokaler\04 Dölj vokaler.csproj", "{997B1F9C-A44B-4D89-8474-47E117C03FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Palindrom", "05 Palindrom\05 Palindrom.csproj", "{623CF051-5A5D-450D-9857-5D43363A2FEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997B1F9C-A44B-4D89-8474-47E117C03FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623CF051-5A5D-450D-9857-5D43363A2FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

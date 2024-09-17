@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Slå ihop namn och retur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Kontrollera sträng längd", "03 Kontrollera sträng längd\03 Kontrollera sträng längd.csproj", "{44E2E544-A673-46B8-8220-2B21FBCC44DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Omvandla C till F", "04 Omvandla C till F\04 Omvandla C till F.csproj", "{2397227B-E5D9-4C82-B369-675A207DA65B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{44E2E544-A673-46B8-8220-2B21FBCC44DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E2E544-A673-46B8-8220-2B21FBCC44DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E2E544-A673-46B8-8220-2B21FBCC44DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2397227B-E5D9-4C82-B369-675A207DA65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2397227B-E5D9-4C82-B369-675A207DA65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2397227B-E5D9-4C82-B369-675A207DA65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2397227B-E5D9-4C82-B369-675A207DA65B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

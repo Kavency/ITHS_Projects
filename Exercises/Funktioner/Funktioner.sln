@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Kontrollera sträng län
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Omvandla C till F", "04 Omvandla C till F\04 Omvandla C till F.csproj", "{2397227B-E5D9-4C82-B369-675A207DA65B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Bindesträck i sträng", "05 Bindesträck i sträng\05 Bindesträck i sträng.csproj", "{3CC5D49E-83B4-412A-B425-118D89D57EB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2397227B-E5D9-4C82-B369-675A207DA65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2397227B-E5D9-4C82-B369-675A207DA65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2397227B-E5D9-4C82-B369-675A207DA65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC5D49E-83B4-412A-B425-118D89D57EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC5D49E-83B4-412A-B425-118D89D57EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC5D49E-83B4-412A-B425-118D89D57EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC5D49E-83B4-412A-B425-118D89D57EB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

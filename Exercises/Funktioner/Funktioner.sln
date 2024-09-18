@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Hitta index", "10 Hitta 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Kasta tärning", "11 Kasta tärning\11 Kasta tärning.csproj", "{96B34FAE-1051-4090-93D9-C55155F6AFFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Rita en fyrkant", "12 Rita en fyrkant\12 Rita en fyrkant.csproj", "{879AA777-01D3-469F-A22B-FF626CAA4305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{96B34FAE-1051-4090-93D9-C55155F6AFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B34FAE-1051-4090-93D9-C55155F6AFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B34FAE-1051-4090-93D9-C55155F6AFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879AA777-01D3-469F-A22B-FF626CAA4305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879AA777-01D3-469F-A22B-FF626CAA4305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879AA777-01D3-469F-A22B-FF626CAA4305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879AA777-01D3-469F-A22B-FF626CAA4305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Fördröjd utskrift", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Bokstavspyramid", "09 Bokstavspyramid\09 Bokstavspyramid.csproj", "{3C05D4E0-A4FC-44DB-B761-F348C2B6FA4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Färgade bokstäver", "10 Färgade bokstäver\10 Färgade bokstäver.csproj", "{2BE0EBD4-A3BF-4CE9-ACA7-5442F9E4466E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3C05D4E0-A4FC-44DB-B761-F348C2B6FA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C05D4E0-A4FC-44DB-B761-F348C2B6FA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C05D4E0-A4FC-44DB-B761-F348C2B6FA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE0EBD4-A3BF-4CE9-ACA7-5442F9E4466E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE0EBD4-A3BF-4CE9-ACA7-5442F9E4466E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE0EBD4-A3BF-4CE9-ACA7-5442F9E4466E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE0EBD4-A3BF-4CE9-ACA7-5442F9E4466E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

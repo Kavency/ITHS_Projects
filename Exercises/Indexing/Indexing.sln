@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Baklänges", "03 Baklän
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Dölj vokaler", "04 Dölj vokaler\04 Dölj vokaler.csproj", "{997B1F9C-A44B-4D89-8474-47E117C03FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Palindrom", "05 Palindrom\05 Palindrom.csproj", "{623CF051-5A5D-450D-9857-5D43363A2FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Palindrom", "05 Palindrom\05 Palindrom.csproj", "{623CF051-5A5D-450D-9857-5D43363A2FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Miniräknare", "06 Miniräknare\06 Miniräknare.csproj", "{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Miniräknare", "06 Miniräknare\06 Miniräknare.csproj", "{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Omvänd ordning", "07 Omvänd ordning\07 Omvänd ordning.csproj", "{1E5EF32B-2483-4DFA-BBA3-C9AD5F8F45D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED2050F-9FAC-423D-9F83-0589EAB1E23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5EF32B-2483-4DFA-BBA3-C9AD5F8F45D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5EF32B-2483-4DFA-BBA3-C9AD5F8F45D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5EF32B-2483-4DFA-BBA3-C9AD5F8F45D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5EF32B-2483-4DFA-BBA3-C9AD5F8F45D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

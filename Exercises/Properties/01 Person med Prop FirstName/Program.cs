@@ -5,7 +5,7 @@
 
 Person someDude = new();
 
-someDude.FirstName = "Lebowky";
+someDude.FirstName = "John";
 
 Console.WriteLine(someDude.FirstName);
 

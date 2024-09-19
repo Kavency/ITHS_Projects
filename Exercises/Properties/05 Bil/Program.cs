@@ -9,3 +9,29 @@
 // Skriv en metod till bilklassen med namnet HalfPrice(). När den anropas ska priset 
 // på bilen sänkas till hälften.
 
+
+
+class Car
+{
+    private string _model;
+    private string _colour;
+    private double _price;
+
+    public string Model
+    {
+        get { return _model; }
+        set { _model = value; }
+    }
+    public string Colour
+    {
+        get { return _colour; }
+        set { _colour = value; }
+    }
+    public double Price
+    {
+        get { return _price; }
+        set { _price = value; }
+    }
+
+
+}

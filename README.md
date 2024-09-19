@@ -3,10 +3,10 @@ My name is Magnus and I'm currently studying to become a .NET developer. In this
 
 Feel free to browse around. 😊
 
-## Links to different prejects:
+## Links to different projects:
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
-Within this folder lies all the exercises given to us by our teachers.
+Within this section lies all the exercises given to us by our teachers.
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
 + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 AutoProp LastName", "02 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 ReadOnly Prop FullName", "03 ReadOnly Prop FullName\03 ReadOnly Prop FullName.csproj", "{A07966EA-3B4B-4A7D-A5F6-E75D60A3593D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Stegräknare", "04 Stegräknare\04 Stegräknare.csproj", "{35E3535C-A0A0-4E66-810B-FB560C0E308C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A07966EA-3B4B-4A7D-A5F6-E75D60A3593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A07966EA-3B4B-4A7D-A5F6-E75D60A3593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A07966EA-3B4B-4A7D-A5F6-E75D60A3593D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E3535C-A0A0-4E66-810B-FB560C0E308C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E3535C-A0A0-4E66-810B-FB560C0E308C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E3535C-A0A0-4E66-810B-FB560C0E308C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E3535C-A0A0-4E66-810B-FB560C0E308C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

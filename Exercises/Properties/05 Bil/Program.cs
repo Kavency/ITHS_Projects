@@ -9,7 +9,19 @@
 // Skriv en metod till bilklassen med namnet HalfPrice(). När den anropas ska priset 
 // på bilen sänkas till hälften.
 
+Car volvo = new();
+Car saab = new("95", "Blue", 450.0);
 
+
+volvo.Model = "245";
+volvo.Colour = "Green";
+volvo.Price = 230;
+
+Console.WriteLine($"Volvo Model: {volvo.Model} Colour: {volvo.Colour} Price: ${volvo.Price}");
+Console.WriteLine($"Saab Model: {saab.Model} Colour: {saab.Colour} Price: ${saab.Price}");
+
+volvo.HalfPrice();
+Console.WriteLine($"Volvo 50% off: ${volvo.Price}");
 
 class Car
 {
@@ -33,5 +45,16 @@ class Car
         set { _price = value; }
     }
 
+    public Car() { }
+    public Car(string model, string colour, double price)
+    {
+        this.Model = model;
+        this.Colour = colour;
+        this.Price = price;
+    }
 
+    public void HalfPrice()
+    {
+        this.Price /= 2;
+    }
 }

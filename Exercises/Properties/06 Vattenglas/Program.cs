@@ -10,3 +10,66 @@
 // metoderna. (t.ex “Glaset går sönder, och vattnet rinner ut på golvet”, eller “Glaset 
 // kan inte fyllas, eftersom det är trasigt” osv.)
 
+Glass glassOfWater = new();
+
+glassOfWater.EmptyGlass();
+glassOfWater.FillGlass();
+glassOfWater.BreakGlass();
+glassOfWater.EmptyGlass();
+glassOfWater.FillGlass();
+glassOfWater.BreakGlass();
+
+class Glass
+{
+    private bool _isFull = false;
+    private bool _isBroken = false;
+
+    public void FillGlass()
+    {
+        if(!_isFull && !_isBroken)
+        {
+            Console.WriteLine("Glaset fylls på.");
+            _isFull = true;
+        }
+        else if(_isFull && !_isBroken)
+        {
+            Console.WriteLine("Glaset är redan fullt.");
+        }
+        else
+        {
+            Console.WriteLine("Glaset är trasigt.");
+        }
+    }
+    public void EmptyGlass()
+    {
+        if (_isFull && !_isBroken)
+        {
+            Console.WriteLine("Glaset töms.");
+            _isFull = false;
+        }
+        else if (!_isFull && !_isBroken)
+        {
+            Console.WriteLine("Glaset är redan tomt.");
+        }
+        else
+        {
+            Console.WriteLine("Glaset är trasigt.");
+        }
+    }
+    public void BreakGlass()
+    {
+        if(!_isBroken && _isFull)
+        {
+            Console.WriteLine("Glaset gick sönder och vätskan rann ut.");
+            _isBroken = true;
+        }
+        else if(!_isBroken && !_isFull)
+        {
+            Console.WriteLine("Glaset gick sönder, tur att det var tomt.");
+        }
+        else
+        {
+            Console.WriteLine("Glaset är redan sönder.");
+        }
+    }
+}

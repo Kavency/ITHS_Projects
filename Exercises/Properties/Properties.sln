@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Person med Prop FirstName", "01 Person med Prop FirstName\01 Person med Prop FirstName.csproj", "{B9415F25-C8D4-46AB-AAAE-338EC4EC4BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Person med Prop FirstName", "01 Person med Prop FirstName\01 Person med Prop FirstName.csproj", "{B9415F25-C8D4-46AB-AAAE-338EC4EC4BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 AutoProp LastName", "02 AutoProp LastName\02 AutoProp LastName.csproj", "{1FBCBF95-2282-41E9-AB27-D4E2267275C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 AutoProp LastName", "02 AutoProp LastName\02 AutoProp LastName.csproj", "{1FBCBF95-2282-41E9-AB27-D4E2267275C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 ReadOnly Prop FullName", "03 ReadOnly Prop FullName\03 ReadOnly Prop FullName.csproj", "{A07966EA-3B4B-4A7D-A5F6-E75D60A3593D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 ReadOnly Prop FullName", "03 ReadOnly Prop FullName\03 ReadOnly Prop FullName.csproj", "{A07966EA-3B4B-4A7D-A5F6-E75D60A3593D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Stegräknare", "04 Stegräknare\04 Stegräknare.csproj", "{35E3535C-A0A0-4E66-810B-FB560C0E308C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Stegräknare", "04 Stegräknare\04 Stegräknare.csproj", "{35E3535C-A0A0-4E66-810B-FB560C0E308C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Bil", "05 Bil\05 Bil.csproj", "{936F4951-07F4-409D-8394-CFCEBD737BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Bil", "05 Bil\05 Bil.csproj", "{936F4951-07F4-409D-8394-CFCEBD737BDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Vattenglas", "06 Vattenglas\06 Vattenglas.csproj", "{E0392869-7FA2-42DE-9E50-B72BFAD8386C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Vattenglas", "06 Vattenglas\06 Vattenglas.csproj", "{E0392869-7FA2-42DE-9E50-B72BFAD8386C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Blå Röd", "07 Blå Röd\07 Blå Röd.csproj", "{B873BADD-3E20-44C5-877D-7BA1C72D23A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E0392869-7FA2-42DE-9E50-B72BFAD8386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0392869-7FA2-42DE-9E50-B72BFAD8386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0392869-7FA2-42DE-9E50-B72BFAD8386C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B873BADD-3E20-44C5-877D-7BA1C72D23A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B873BADD-3E20-44C5-877D-7BA1C72D23A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B873BADD-3E20-44C5-877D-7BA1C72D23A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B873BADD-3E20-44C5-877D-7BA1C72D23A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

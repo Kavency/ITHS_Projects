@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Bil 02", "08 Bil 02\08 B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Lägg till statisk metod", "09 Lägg till statisk metod\09 Lägg till statisk metod.csproj", "{BA203BD4-DCFB-434E-9A2A-E747435B97C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Simulering", "10 Simulering\10 Simulering.csproj", "{3D31442D-6CC3-4BD7-87E1-6B1E65C4777D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BA203BD4-DCFB-434E-9A2A-E747435B97C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA203BD4-DCFB-434E-9A2A-E747435B97C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA203BD4-DCFB-434E-9A2A-E747435B97C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D31442D-6CC3-4BD7-87E1-6B1E65C4777D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D31442D-6CC3-4BD7-87E1-6B1E65C4777D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D31442D-6CC3-4BD7-87E1-6B1E65C4777D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D31442D-6CC3-4BD7-87E1-6B1E65C4777D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

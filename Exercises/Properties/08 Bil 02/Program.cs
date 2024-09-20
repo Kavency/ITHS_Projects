@@ -5,3 +5,17 @@
 // 1000 bilar och spara i en array. Skapa en funktion som tar en array av bilar och 
 // returnerar den sammanlagda längden av alla gröna bilar.
 
+
+
+class Car
+{
+    private ConsoleColor _colour;
+    private double _length;
+
+    Car()
+    {
+        Random rnd = new();
+        _colour = (ConsoleColor)rnd.Next(0, 16);
+        _length = rnd.Next(3, 6);
+    }
+}

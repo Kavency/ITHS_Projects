@@ -5,6 +5,30 @@
 // 1000 bilar och spara i en array. Skapa en funktion som tar en array av bilar och 
 // returnerar den sammanlagda längden av alla gröna bilar.
 
+Car[] cars = new Car[1000];
+
+for(int i = 0; i < cars.Length; i++)
+{
+    Car car = new();
+    cars[i] = car;
+}
+
+Console.WriteLine(GetLength(cars));
+
+
+
+
+double GetLength(Car[] cars)
+{
+    double returnValue = 0D;
+
+    foreach(Car car in cars)
+    {
+        returnValue += car.Length;
+    }
+
+    return returnValue;
+}
 
 
 class Car
@@ -12,7 +36,10 @@ class Car
     private ConsoleColor _colour;
     private double _length;
 
-    Car()
+    public ConsoleColor Colour { get { return _colour; } }
+    public double Length { get { return _length; } }
+
+    public Car()
     {
         Random rnd = new();
         _colour = (ConsoleColor)rnd.Next(0, 16);

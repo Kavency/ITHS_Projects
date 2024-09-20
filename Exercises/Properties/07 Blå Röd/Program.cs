@@ -5,6 +5,20 @@
 // alltid är 100.0 d.v.s om man t.ex. sätter “Blue” till 8.5 och sedan 
 // läser av “Red” så ska den returnera 91.5.
 
+ColourConnection colours = new();
+
+colours.PrintValues();
+Console.WriteLine();
+
+colours.Blue = 25;
+
+colours.PrintValues();
+Console.WriteLine();
+
+colours.Red = 65.5;
+
+colours.PrintValues();
+Console.WriteLine();
 
 
 class ColourConnection
@@ -16,9 +30,9 @@ class ColourConnection
     public double Blue { set { _blue = value; _red = _maxValue - value; } }
     public double Red { set { _red = value; _blue = _maxValue - value; } }
     
-    void PrintValues()
+    public void PrintValues()
     {
-        Console.WriteLine($"Blue is:\t {_blue}");
-        Console.WriteLine($"Red is:\t {_red}");
+        Console.WriteLine($"Blue is: {_blue}");
+        Console.WriteLine($"Red is:  {_red}");
     }
 }

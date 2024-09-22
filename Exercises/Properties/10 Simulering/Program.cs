@@ -21,7 +21,7 @@ for (int i = 0; i < cars.Length; i++)
     do
     {
         cars[i] = new();
-    } while (cars[i].Colour == 0);
+    } while (cars[i].Colour == ConsoleColor.Black || cars[i].Colour == ConsoleColor.White);
 }
 
 
@@ -45,11 +45,12 @@ while (true)
 
         car.DriveForOneHour();
 
-        Console.Write("{0,-9}", carNo);
+        Console.Write("|   {0,-5}", carNo);
         Console.ForegroundColor = car.Colour;
         Console.Write("{0,-23}", car.GetGraph());
         Console.ForegroundColor = ConsoleColor.Gray;
-        Console.WriteLine("{0,-8}", car.Speed);
+        Console.WriteLine(" {0,-3}  |", car.Speed);
+        Console.WriteLine("---------------------------------------");
 
         carNo++;
     }
@@ -64,15 +65,17 @@ class Car
     private ConsoleColor _colour;
     private double _length;
     private int _speed;
-    private int _distance;
+    private int _distanceDriven = 0;
     private int _currentPos = 1;
-    private int _nextDistance = 500;
-    private string _output = "|X-------------------|";
+    private int _nextCheckpoint = 500;
+    private int _noOfCheckpoints = 20;
+    private int _totalDistanceToDrive = 1000;
+    private string _distanceTracker = "|X-------------------|";
 
     public ConsoleColor Colour { get { return _colour; } }
     public double Length { get { return _length; } }
     public int Speed { get { return _speed; } }
-    public int Distance { get { return _distance; } }
+    public int DistanceDriven { get { return _distanceDriven; } }
 
     public Car()
     {
@@ -80,12 +83,13 @@ class Car
         _colour = (ConsoleColor)rnd.Next(0, 16);
         _length = rnd.Next(3, 6);
         _speed = rnd.Next(60, 241);
-        _distance = 0;
+        _nextCheckpoint = _totalDistanceToDrive / _noOfCheckpoints;
+
     }
 
     public void DriveForOneHour()
     {
-        _distance += Speed;
+        _distanceDriven += Speed;
     }
 
     public string GetGraph()
@@ -95,24 +99,23 @@ class Car
 
         for (int i = 0; i < 20; i++)
         {
-
             if(_currentPos >= 19)
             {
                 _currentPos = 19;
             }
 
-            if (_distance >= _nextDistance && i > 0)
+            if (_distanceDriven >= _nextCheckpoint && i > 0)
             {
-                _output = _output.Remove(_currentPos, 2);
-                _output = _output.Insert(_currentPos, "-");
-                _output = _output.Insert(_currentPos + 1, "X");
+                _distanceTracker = _distanceTracker.Remove(_currentPos, 2);
+                _distanceTracker = _distanceTracker.Insert(_currentPos, "-");
+                _distanceTracker = _distanceTracker.Insert(_currentPos + 1, "X");
 
-                _nextDistance += 500; // Remove use of hardcoded values.
+                _nextCheckpoint += _totalDistanceToDrive / _noOfCheckpoints;
                 _currentPos++;
             }
         }
 
-        return _output;
+        return _distanceTracker;
     }
 
 }

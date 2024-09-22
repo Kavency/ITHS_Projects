@@ -24,13 +24,9 @@ for (int i = 0; i < cars.Length; i++)
     } while (cars[i].Colour == ConsoleColor.Black || cars[i].Colour == ConsoleColor.White);
 }
 
-
 while (true)
 {
     int carNo = 1;
-    string text1 = "Car no";
-    string text2 = "Position on track";
-    string text3 = "Speed";
 
     Console.Clear();
 
@@ -42,19 +38,33 @@ while (true)
 
     foreach (var car in cars)
     {
-
         car.DriveForOneHour();
+        
+        // Colours only the X on the track.        
+        string[] trackRender = new string[2];
+        trackRender = car.GetGraph().Split('X', 2);
 
         Console.Write("|   {0,-5}", carNo);
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(trackRender[0]);
         Console.ForegroundColor = car.Colour;
-        Console.Write("{0,-23}", car.GetGraph());
+        Console.Write("X");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(trackRender[1]);
         Console.ForegroundColor = ConsoleColor.Gray;
-        Console.WriteLine(" {0,-3}  |", car.Speed);
+        Console.WriteLine(" {0,-3}   |", car.Speed);
         Console.WriteLine("---------------------------------------");
+
+        // Colours the entire track.
+        //Console.Write("|   {0,-5}", carNo);
+        //Console.ForegroundColor = car.Colour;
+        //Console.Write("{0,-23}", car.GetGraph());
+        //Console.ForegroundColor = ConsoleColor.Gray;
+        //Console.WriteLine(" {0,-3}  |", car.Speed);
+        //Console.WriteLine("---------------------------------------");
 
         carNo++;
     }
-    
     
     Thread.Sleep(1000);
 }
@@ -69,13 +79,20 @@ class Car
     private int _currentPos = 1;
     private int _nextCheckpoint = 500;
     private int _noOfCheckpoints = 20;
-    private int _totalDistanceToDrive = 1000;
+    private int _totalDistanceToDrive = 10000;
     private string _distanceTracker = "|X-------------------|";
 
     public ConsoleColor Colour { get { return _colour; } }
     public double Length { get { return _length; } }
     public int Speed { get { return _speed; } }
     public int DistanceDriven { get { return _distanceDriven; } }
+    public int TotalDistanceToDrive 
+    { set 
+        { 
+            _totalDistanceToDrive = value;
+            _nextCheckpoint = _totalDistanceToDrive / _noOfCheckpoints;
+        }
+    }
 
     public Car()
     {
@@ -94,12 +111,9 @@ class Car
 
     public string GetGraph()
     {
-        // 10000km / 20tecken = 500km per tecken.
-        // 20 / (10000 / _speed)
-
         for (int i = 0; i < 20; i++)
         {
-            if(_currentPos >= 19)
+            if(_currentPos > 19)
             {
                 _currentPos = 19;
             }

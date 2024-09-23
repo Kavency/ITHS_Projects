@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Lägg till override för
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Skapa en subklass för bilar", "03 Skapa en subklass för bilar\03 Skapa en subklass för bilar.csproj", "{276C84B0-BFA1-435A-B78F-A61E068F96D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Skapa en struct för längd bredd höjd", "04 Skapa en struct för längd bredd höjd\04 Skapa en struct för längd bredd höjd.csproj", "{4C548F73-73F5-4F19-82C0-FFDFF9A3B402}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{276C84B0-BFA1-435A-B78F-A61E068F96D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{276C84B0-BFA1-435A-B78F-A61E068F96D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{276C84B0-BFA1-435A-B78F-A61E068F96D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C548F73-73F5-4F19-82C0-FFDFF9A3B402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C548F73-73F5-4F19-82C0-FFDFF9A3B402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C548F73-73F5-4F19-82C0-FFDFF9A3B402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C548F73-73F5-4F19-82C0-FFDFF9A3B402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

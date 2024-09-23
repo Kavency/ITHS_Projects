@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Skriv talen 20 till 30", "Loops_01\01 Skriv talen 20 till 30.csproj", "{49813190-CCC4-4927-8FAF-F1A71D437AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Skriv talen 20 till 30", "01 Skriv talen 20 till 30\01 Skriv talen 20 till 30.csproj", "{49813190-CCC4-4927-8FAF-F1A71D437AC6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Jämna tal", "Loops_02\02 Jämna tal.csproj", "{4E7CB677-C22F-4106-97EA-CBBEFAF45C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Jämna tal", "02 Jämna tal\02 Jämna tal.csproj", "{4E7CB677-C22F-4106-97EA-CBBEFAF45C61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Var tredje Hej", "Loops_03\03 Var tredje Hej.csproj", "{816003E3-4F0D-41E4-8ABA-819A8B2710C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Var tredje Hej", "03 Var tredje Hej\03 Var tredje Hej.csproj", "{816003E3-4F0D-41E4-8ABA-819A8B2710C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Gångertabell", "Loops_04\04 Gångertabell.csproj", "{24F098C1-F257-4B16-B173-F7DA4E2C6DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Gångertabell", "04 Gångertabell\04 Gångertabell.csproj", "{24F098C1-F257-4B16-B173-F7DA4E2C6DD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Summa", "Loops_05\05 Summa.csproj", "{3B7CC8F2-7AF1-4162-B132-14BEBA681BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Summa", "05 Summa\05 Summa.csproj", "{3B7CC8F2-7AF1-4162-B132-14BEBA681BFE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Riskorn på shackbräde", "Loops_06\06 Riskorn på shackbräde.csproj", "{0162BB7E-AB48-4F2A-A1B5-C12BB78D4C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Riskorn på shackbräde", "06 Riskorn på shackbräde\06 Riskorn på shackbräde.csproj", "{0162BB7E-AB48-4F2A-A1B5-C12BB78D4C9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 Fylld box", "Loops_07\07 Fylld box.csproj", "{E673CC54-8B1C-4AE9-849B-98A4B42D730D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 Fylld box", "07 Fylld box\07 Fylld box.csproj", "{E673CC54-8B1C-4AE9-849B-98A4B42D730D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 Randig box", "Loops_08\08 Randig box.csproj", "{66E21D94-4DE4-4113-A071-AC776E72F326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 Randig box", "08 Randig box\08 Randig box.csproj", "{66E21D94-4DE4-4113-A071-AC776E72F326}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 Rutig box", "Loops_09\09 Rutig box.csproj", "{865A0F7F-49CA-478B-B8AB-4F8DFB6DCFB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 Rutig box", "09 Rutig box\09 Rutig box.csproj", "{865A0F7F-49CA-478B-B8AB-4F8DFB6DCFB9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Ihålig box", "Loops_10\10 Ihålig box.csproj", "{DE8D6193-FE0B-485C-B88C-EC0C4DC4902A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Ihålig box", "10 Ihålig box\10 Ihålig box.csproj", "{DE8D6193-FE0B-485C-B88C-EC0C4DC4902A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Sifferpyramid", "Loops_11\11 Sifferpyramid.csproj", "{89FED898-3F84-436F-BD2B-93D857658510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Sifferpyramid", "11 Sifferpyramid\11 Sifferpyramid.csproj", "{89FED898-3F84-436F-BD2B-93D857658510}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 Nio sifferpyramider", "Loops_12\12 Nio sifferpyramider.csproj", "{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 Nio sifferpyramider", "12 Nio sifferpyramider\12 Nio sifferpyramider.csproj", "{B4DEF8CC-CE7E-4E23-9AE4-0F5BD36C3426}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 Primtal", "13 Primtal\13 Primtal.csproj", "{16C2AD63-04CE-454F-8670-CABB6488AFEB}"
 EndProject

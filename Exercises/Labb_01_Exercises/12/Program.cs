@@ -3,34 +3,24 @@
 // På första raden ska första ordet vara rött (övriga vita), på andra raden ska andra ordet vara rött.
 // På tredje raden ska tredje vara rött osv.
 
+string text = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?";
+string[] textArray = text.Split(' ');
+int wordNumber = 1;
 
-namespace _12
+for (int i = 0; i < textArray.Length; i++)
 {
-    internal class Program
+    for (int j = 0; j < textArray.Length; j++)
     {
-        static void Main(string[] args)
-        {
-            string text = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?";
-            string[] textArray = text.Split(' ');
-            int wordNumber = 1;
+        if (wordNumber == j + 1)
+            Console.ForegroundColor = ConsoleColor.Red;
 
-            for (int i = 0; i < textArray.Length; i++)
-            {
-                for (int j = 0; j < textArray.Length; j++)
-                {
-                    if(wordNumber == j + 1)
-                        Console.ForegroundColor = ConsoleColor.Red;
-                    
-                    else
-                        Console.ForegroundColor = ConsoleColor.Gray;
-                    
-                    Console.Write(textArray[j] + " ");
-                }
-
-                Console.WriteLine();
-                wordNumber++;
-            }
+        else
             Console.ForegroundColor = ConsoleColor.Gray;
-        }
+
+        Console.Write(textArray[j] + " ");
     }
+
+    Console.WriteLine();
+    wordNumber++;
 }
+Console.ForegroundColor = ConsoleColor.Gray;

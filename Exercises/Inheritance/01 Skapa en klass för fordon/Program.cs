@@ -11,7 +11,11 @@ namespace _01_Skapa_en_klass_för_fordon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Vehicle car1 = new(CarBrands.Saab);
+            Vehicle car2 = new(CarBrands.Volvo, CarColours.Green);
+
+            Console.WriteLine($"{car1.CarBrand} {car1.CarColour}");
+            Console.WriteLine($"{car2.CarBrand} {car2.CarColour}");
         }
     }
 }

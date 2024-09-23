@@ -1,31 +1,25 @@
-﻿namespace Variables_04
+﻿// 4.Jämför tal
+// Skriv ett program som frågar användaren efter ett tal. Det ska 
+// skriva ut om talet är mindre, större eller lika med 100.
+
+
+while (true)
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            while (true)
-            {
-                int compareToValue = 100;
-                
-                Console.Write("Ange ett tal (x för att avsluta): ");
-                string userInput = Console.ReadLine();
+    int compareToValue = 100;
 
-                if (userInput.ToLower() == "x")
-                    break;
+    Console.Write("Ange ett tal (x för att avsluta): ");
+    string userInput = Console.ReadLine();
 
-                if (!Int32.TryParse(userInput, out int result))
-                    continue;
+    if (userInput.ToLower() == "x")
+        break;
 
-                if (result > compareToValue)
-                    Console.WriteLine($"Talet är större än {compareToValue}!");
-                else if (result < compareToValue)
-                    Console.WriteLine($"Talet är mindre än {compareToValue}!");
-                else
-                    Console.WriteLine($"Talet är exakt {compareToValue}!");
-            }
+    if (!Int32.TryParse(userInput, out int result))
+        continue;
 
-
-        }
-    }
+    if (result > compareToValue)
+        Console.WriteLine($"Talet är större än {compareToValue}!");
+    else if (result < compareToValue)
+        Console.WriteLine($"Talet är mindre än {compareToValue}!");
+    else
+        Console.WriteLine($"Talet är exakt {compareToValue}!");
 }

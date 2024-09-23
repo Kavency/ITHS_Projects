@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables_01", "Variables_01\Variables_01.csproj", "{6D9A345E-3E64-41CA-921A-02AC1509B4DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Häsla på användaren", "Variables_01\01 Häsla på användaren.csproj", "{6D9A345E-3E64-41CA-921A-02AC1509B4DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables_02", "Variables_02\Variables_02.csproj", "{C694E4B9-3A1A-4BBA-BF00-666FDD0EFCB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Multiplicera två tal", "Variables_02\02 Multiplicera två tal.csproj", "{C694E4B9-3A1A-4BBA-BF00-666FDD0EFCB4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables_03", "Variables_03\Variables_03.csproj", "{6981E13F-41F6-4AC4-803D-F0BA4C48A3DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Verifiera lösenord", "Variables_03\03 Verifiera lösenord.csproj", "{6981E13F-41F6-4AC4-803D-F0BA4C48A3DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables_04", "Variables_04\Variables_04.csproj", "{46BC0F6D-EE54-434D-97C0-E5426914B57C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Jämför tal", "Variables_04\04 Jämför tal.csproj", "{46BC0F6D-EE54-434D-97C0-E5426914B57C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables_05", "Variables_05\Variables_05.csproj", "{F8C3DA06-8BE8-4175-AC79-B36E98247DAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Dubblera och halvera tal", "Variables_05\05 Dubblera och halvera tal.csproj", "{F8C3DA06-8BE8-4175-AC79-B36E98247DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables_06", "Variables_06\Variables_06.csproj", "{EB4BA4B5-22C0-4570-BBF3-B0657B6665C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Miniräknare", "Variables_06\06 Miniräknare.csproj", "{EB4BA4B5-22C0-4570-BBF3-B0657B6665C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables_07", "Variables_07\Variables_07.csproj", "{C7122E43-71B5-44AC-8B55-97959C336D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 Summa och medelvärde", "Variables_07\07 Summa och medelvärde.csproj", "{C7122E43-71B5-44AC-8B55-97959C336D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

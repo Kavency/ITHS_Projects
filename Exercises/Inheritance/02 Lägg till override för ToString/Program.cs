@@ -7,14 +7,7 @@
 // kan göra en override på ToString() och returnera en sträng i vilket 
 // format du vill.
 
-
-
-
-
-
-
-
-
+Console.WriteLine(new Vehicle(CarBrands.Toyota, CarColours.White));
 
 enum CarBrands
 {
@@ -46,5 +39,10 @@ class Vehicle
     {
         CarBrand = carBrand;
         CarColour = carColour;
+    }
+
+    public override string ToString()
+    {
+        return $"A {CarColour} {CarBrand}";
     }
 }

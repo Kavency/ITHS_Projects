@@ -24,7 +24,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09 Bokstavspyramid", "09 Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Ordpyramid 1", "10 Ordpyramid 1\10 Ordpyramid 1.csproj", "{2A7332A8-2316-412E-BF9A-07DCB00235CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Ordpyramid 2", "11\11 Ordpyramid 2.csproj", "{72E73031-8F4F-45DB-9F2D-CABFBC9630FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 Ordpyramid 2", "11 Ordpyramid 2\11 Ordpyramid 2.csproj", "{72E73031-8F4F-45DB-9F2D-CABFBC9630FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12 Rödmarkerade ord", "12 Rödmarkerade ord\12 Rödmarkerade ord.csproj", "{A4D0B59F-9960-4779-AD45-B7C4340243BF}"
 EndProject

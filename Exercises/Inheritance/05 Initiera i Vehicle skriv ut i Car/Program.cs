@@ -4,20 +4,30 @@
 // Uppdatera Car-klassen så att även längden skrivs ut när samma kod 
 // som i uppgift 3 körs.
 // Ex: "A white 4.1 meter long Yaris from Toyota".
+Car car = new(CarBrands.Toyota, CarColours.White, "Yaris");
 
 
+Console.WriteLine(new Car(CarBrands.Toyota, CarColours.White, "Yaris"));
 
 
+Console.ReadLine();
 
 
-
-
+//
+// Vehicle class
+//
 class Vehicle
 {
     public CarBrands CarBrand { get; set; }
     public CarColours CarColour { get; set; }
 
-    public Vehicle() { }
+    public CarSize carSize = new();
+
+    public Vehicle()
+    {
+        CarBrand = CarBrands.Saab;
+        CarColour = CarColours.White;
+    }
     public Vehicle(CarBrands carBrand)
     {
         CarBrand = carBrand;
@@ -25,8 +35,11 @@ class Vehicle
     }
     public Vehicle(CarBrands carBrand, CarColours carColour)
     {
+        Random rnd = new();
+        
         CarBrand = carBrand;
         CarColour = carColour;
+        carSize.Length = rnd.Next(1, 5);
     }
 
     public override string ToString()
@@ -35,23 +48,28 @@ class Vehicle
     }
 }
 
+
+//
+// Car Class 
+//
 class Car : Vehicle
 {
     public string CarModel { get; set; }
 
-    public Car(CarBrands carBrand, CarColours carColour, string carModel)
+    public Car(CarBrands carBrand, CarColours carColour, string carModel) : base (carBrand, carColour)
     {
-        CarBrand = carBrand;
-        CarColour = carColour;
         CarModel = carModel;
     }
 
     public override string ToString()
     {
-        return $"A {CarColour} {CarModel} from {CarBrand}";
+        return $"A {CarModel} of length {carSize.Length} is a {CarColour} car from {CarBrand}";
     }
 }
 
+//
+// Enums
+//
 enum CarBrands
 {
     Volvo,
@@ -69,13 +87,16 @@ enum CarColours
     Gray
 }
 
+//
+// Struct
+//
 struct CarSize
 {
-    public int Length { get; set; }
-    public int Width { get; set; }
-    public int Height { get; set; }
+    public double Length { get; set; }
+    public double Width { get; set; }
+    public double Height { get; set; }
 
-    public CarSize(int length, int width, int height)
+    public CarSize(int length, int width = 2, int height = 1)
     {
         Length = length;
         Width = width;

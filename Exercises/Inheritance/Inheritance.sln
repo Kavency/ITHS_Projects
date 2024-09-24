@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Lägg till Print metod i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Array av cirklar och kvadrater", "09 Array av cirklar och kvadrater\09 Array av cirklar och kvadrater.csproj", "{C62D9AF2-9520-4AFA-BF34-1AEDB22D6644}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Statiska printmetoder", "10 Statiska printmetoder\10 Statiska printmetoder.csproj", "{2A200FCC-8C90-4D5C-AF5D-3AB998A5AAC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C62D9AF2-9520-4AFA-BF34-1AEDB22D6644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C62D9AF2-9520-4AFA-BF34-1AEDB22D6644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C62D9AF2-9520-4AFA-BF34-1AEDB22D6644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A200FCC-8C90-4D5C-AF5D-3AB998A5AAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A200FCC-8C90-4D5C-AF5D-3AB998A5AAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A200FCC-8C90-4D5C-AF5D-3AB998A5AAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A200FCC-8C90-4D5C-AF5D-3AB998A5AAC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,8 +5,6 @@
 
 // Sätt en breakpoint efter loopen och inspektera arrayen i Visual Studios debugger.
 
-using System;
-
 Shape[] shapes = new Shape[10];
 
 Random rnd = new();

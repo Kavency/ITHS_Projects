@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Statiska printmetoder", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Lägg till färger i PrintAll", "11 Lägg till färger i PrintAll\11 Lägg till färger i PrintAll.csproj", "{017F123F-9565-435B-9211-5877EB041F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Random färger", "12 Random färger\12 Random färger.csproj", "{43C3798F-5D69-4BE1-AEDF-30E8B79135BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{017F123F-9565-435B-9211-5877EB041F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{017F123F-9565-435B-9211-5877EB041F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{017F123F-9565-435B-9211-5877EB041F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C3798F-5D69-4BE1-AEDF-30E8B79135BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C3798F-5D69-4BE1-AEDF-30E8B79135BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C3798F-5D69-4BE1-AEDF-30E8B79135BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C3798F-5D69-4BE1-AEDF-30E8B79135BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

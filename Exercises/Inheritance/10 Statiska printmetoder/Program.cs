@@ -27,10 +27,9 @@ for (int i = 0; i < shapes.Length; i++)
     }
 }
 
-foreach (var shape in shapes)
-{
-    Console.WriteLine(shape);
-}
+Shape.PrintAllShapes(shapes);
+Console.WriteLine();
+Shape.PrintAllCircles(shapes);
 
 public abstract class Shape
 {
@@ -39,6 +38,21 @@ public abstract class Shape
     public void Print()
     {
         Console.WriteLine(this);
+    }
+    public static void PrintAllShapes(Shape[] shapes)
+    {
+        foreach (var shape in shapes)
+        {
+            Console.WriteLine(shape);
+        }
+    }
+    public static void PrintAllCircles(Shape[] shapes)
+    {
+        foreach (var shape in shapes)
+        {
+            if (shape is Circle)
+                Console.WriteLine(shape);
+        }
     }
 }
 

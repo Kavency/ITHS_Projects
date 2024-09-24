@@ -9,11 +9,10 @@ Car[] cars = new Car[1000];
 
 for(int i = 0; i < cars.Length; i++)
 {
-    Car car = new();
-    cars[i] = car;
+    cars[i] = new Car();
 }
 
-Console.WriteLine(GetLength(cars));
+Console.WriteLine($"Sammanlagd längd på alla gröna bilar: {GetLength(cars)}");
 
 
 
@@ -24,7 +23,8 @@ double GetLength(Car[] cars)
 
     foreach(Car car in cars)
     {
-        returnValue += car.Length;
+        if (car.Colour == ConsoleColor.Green)
+            returnValue += car.Length;
     }
 
     return returnValue;

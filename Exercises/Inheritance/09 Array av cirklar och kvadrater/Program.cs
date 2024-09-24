@@ -5,7 +5,28 @@
 
 // Sätt en breakpoint efter loopen och inspektera arrayen i Visual Studios debugger.
 
+using System;
 
+Shape[] shapes = new Shape[10];
+
+Random rnd = new();
+
+for (int i = 0; i < shapes.Length; i++)
+{
+    if (rnd.Next(2) == 0)
+    {
+        shapes[i] = new Circle(rnd.Next(1,10));
+    }
+    else
+    {
+        shapes[i] = new Square(rnd.Next(1, 10));
+    }
+}
+
+foreach (var shape in shapes)
+{
+    Console.WriteLine(shape);
+}
 
 public abstract class Shape
 {

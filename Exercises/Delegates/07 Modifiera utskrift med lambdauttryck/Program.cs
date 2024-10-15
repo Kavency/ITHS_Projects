@@ -12,3 +12,16 @@
 // Ett som skriver ut de 3 första tecknen i varje stad
 // Ett som skriver ut längden på varje stads namn.
 
+string[] cities = { "Göteborg", "Stockholm", "Malmö", "Karlstad", "Umeå" };
+
+PrintStrings(cities, x => x.ToUpper());
+PrintStrings(cities, x => x.Substring(0, 3));
+PrintStrings(cities, x => x.Length.ToString());
+
+void PrintStrings(string[] strings, Func<string, string> modifier)
+{
+    foreach(string item in strings)
+    {
+        Console.WriteLine(modifier(item));
+    }
+}

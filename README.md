@@ -7,6 +7,7 @@ Feel free to browse around. 😊
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this section lies all the exercises given to us by our teachers.
+#### Basic C# and .NET
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
 + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)
@@ -19,7 +20,9 @@ Within this section lies all the exercises given to us by our teachers.
 ### Assignments
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.
 + [Labb 01](https://github.com/Kavency/ITHS_Labb01)
++ [Labb 02](https://github.com/Kavency/ITHS_Labb02)
 
 ### [Project Euler](https://github.com/Kavency/Project_Euler)
 
 I will try to solve puzzles from the [Project Euler website](https://projecteuler.net/archives), given there is time for it. These solutions will reside in its own [repo](https://github.com/Kavency/Project_Euler).
+https://github.com/Kavency/ITHS_Labb02

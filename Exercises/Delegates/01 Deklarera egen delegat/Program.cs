@@ -4,3 +4,11 @@
 // en delegat-typ, och gör en variabel som är en referens till 
 // metoden. Anropa metoden via delegatet.
 
+
+
+
+
+string GetFullName(string firstName, string lastName) 
+{
+    return $"{firstName} {lastName}";
+}

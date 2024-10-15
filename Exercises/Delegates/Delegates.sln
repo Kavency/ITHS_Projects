@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Summan av två värden",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Returnera summa", "05 Returnera summa\05 Returnera summa.csproj", "{E99717E4-BEDC-47D0-8A6A-64284390326C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Lambda som argument", "06 Lambda som argument\06 Lambda som argument.csproj", "{BED666D0-C646-494C-A6FD-A9D286C3337B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED666D0-C646-494C-A6FD-A9D286C3337B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED666D0-C646-494C-A6FD-A9D286C3337B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED666D0-C646-494C-A6FD-A9D286C3337B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED666D0-C646-494C-A6FD-A9D286C3337B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

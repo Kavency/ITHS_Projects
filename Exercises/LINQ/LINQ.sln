@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Anonyma datatyper", "01 Anonyma datatyper\01 Anonyma datatyper.csproj", "{14C0D70D-C223-4F90-BCDD-D73E7682E34F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Filtrera på ålder", "02 Filtrera på ålder\02 Filtrera på ålder.csproj", "{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{14C0D70D-C223-4F90-BCDD-D73E7682E34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14C0D70D-C223-4F90-BCDD-D73E7682E34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14C0D70D-C223-4F90-BCDD-D73E7682E34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

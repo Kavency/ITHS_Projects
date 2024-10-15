@@ -3,6 +3,8 @@
 // som tar två tal och skriver ut summan av dessa på 
 // konsolen. Testa genom att anropa med två värden.
 
+
+// Create generic delegate V   - Use a Lambda V
 Func<int, int, int> AddNumbers = (x,y) => x + y; ;
 
 Console.WriteLine(AddNumbers(5,5));

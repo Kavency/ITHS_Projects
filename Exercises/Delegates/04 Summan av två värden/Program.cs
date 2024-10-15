@@ -5,7 +5,7 @@
 
 
 // Declare generic delegate.   - Assign a Lambda.
-Func<int, int, int> AddNumbers = (x,y) => x + y; ;
+Action<int, int> AddNumbers = (x,y) => Console.WriteLine(x + y);
 
-Console.WriteLine(AddNumbers(5,5));
-Console.WriteLine(AddNumbers(2,3));
+AddNumbers(5, 5);
+AddNumbers(2, 3);

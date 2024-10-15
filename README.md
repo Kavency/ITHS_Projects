@@ -7,6 +7,7 @@ Feel free to browse around. 😊
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this section lies all the exercises given to us by our teachers.
+#### Basic C# and .NET
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
 + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)

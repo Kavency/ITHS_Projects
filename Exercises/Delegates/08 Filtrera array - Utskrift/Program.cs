@@ -12,3 +12,23 @@
 // Ett som listar alla tal mellan 10 och 20
 // Ett som listar alla jämna tal
 
+int[] numbers = { 2, -5, 34, 23, 87, 7, -95, 56, -32, 14 };
+
+Console.WriteLine("Negative numbers:");
+CheckNumbers(numbers, x => x < 0);
+Console.WriteLine("Numbers between 10 an 30:");
+CheckNumbers(numbers, x => x > 10 && x < 30);
+Console.WriteLine("Even numbers:");
+CheckNumbers(numbers, x => x % 2 == 0);
+
+
+void CheckNumbers(int[] numbers, Func<int, bool> func)
+{
+	foreach (int number in numbers)
+	{
+		if (func(number))
+		{
+            Console.WriteLine(number);
+		}
+	}
+}

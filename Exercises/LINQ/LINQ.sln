@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Längre än 190 cm", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Filtrera på namn", "04 Filtrera på namn\04 Filtrera på namn.csproj", "{939A25C5-1082-4202-BA69-3D14E3886512}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Namnet med BMI", "05 Namnet med BMI\05 Namnet med BMI.csproj", "{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{939A25C5-1082-4202-BA69-3D14E3886512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939A25C5-1082-4202-BA69-3D14E3886512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939A25C5-1082-4202-BA69-3D14E3886512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

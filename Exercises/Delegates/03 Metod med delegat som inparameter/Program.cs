@@ -20,7 +20,6 @@ void CallDelegate(Func<string, string, string> nameCaller)
     Console.WriteLine(CallNames("John", "Doe"));
     Console.WriteLine(CallNames("Jane", "Doe"));
     Console.WriteLine(CallNames("Some Other", "Doe"));
-    //Console.WriteLine(nameCaller);
 }
 
 string GetName(string firstName, string lastName)

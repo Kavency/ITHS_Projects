@@ -4,3 +4,7 @@
 // anropa med två värden, och skriva ut resultatet.
 
 // Declare generic delegate.   - Assign a Lambda.
+Func<int, int, int> AddNumbers = (x, y) => x + y; ;
+
+Console.WriteLine(AddNumbers(5, 5));
+Console.WriteLine(AddNumbers(2, 3));

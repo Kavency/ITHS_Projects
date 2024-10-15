@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Deklarera egen delegat", "01 Deklarera egen delegat\01 Deklarera egen delegat.csproj", "{72988F2A-040D-42E0-863A-54C2FCE245EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Använd generiskt delegat", "02 Använd generiskt delegat\02 Använd generiskt delegat.csproj", "{302EC920-2015-4146-B550-17BEBEDCCD96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72988F2A-040D-42E0-863A-54C2FCE245EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72988F2A-040D-42E0-863A-54C2FCE245EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72988F2A-040D-42E0-863A-54C2FCE245EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302EC920-2015-4146-B550-17BEBEDCCD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302EC920-2015-4146-B550-17BEBEDCCD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302EC920-2015-4146-B550-17BEBEDCCD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302EC920-2015-4146-B550-17BEBEDCCD96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

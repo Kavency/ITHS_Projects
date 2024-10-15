@@ -4,7 +4,7 @@
 // konsolen. Testa genom att anropa med två värden.
 
 
-// Create generic delegate V   - Use a Lambda V
+// Declare generic delegate.   - Assign a Lambda.
 Func<int, int, int> AddNumbers = (x,y) => x + y; ;
 
 Console.WriteLine(AddNumbers(5,5));

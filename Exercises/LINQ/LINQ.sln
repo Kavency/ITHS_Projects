@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Anonyma datatyper", "01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Filtrera på ålder", "02 Filtrera på ålder\02 Filtrera på ålder.csproj", "{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Längre än 190 cm", "03 Längre än 190 cm\03 Längre än 190 cm.csproj", "{16970D94-02B9-4C60-BA13-FCEFA869AA4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16970D94-02B9-4C60-BA13-FCEFA869AA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16970D94-02B9-4C60-BA13-FCEFA869AA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16970D94-02B9-4C60-BA13-FCEFA869AA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16970D94-02B9-4C60-BA13-FCEFA869AA4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

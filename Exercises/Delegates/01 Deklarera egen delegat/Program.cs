@@ -6,9 +6,10 @@
 
 
 
-
-
 string GetFullName(string firstName, string lastName) 
 {
     return $"{firstName} {lastName}";
 }
+
+
+public delegate string FullName(string firstName, string lastName);

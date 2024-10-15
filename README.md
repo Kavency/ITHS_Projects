@@ -16,6 +16,7 @@ Within this section lies all the exercises given to us by our teachers.
 + [OOP Basics](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/OOP_Basics)
 + [Properties](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Properties)
 + [Inheritance](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Inheritance)
++ [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Delegates)
 
 ### Assignments
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.

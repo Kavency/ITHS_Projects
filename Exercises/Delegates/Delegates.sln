@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Metod med delegat som in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Summan av två värden", "04 Summan av två värden\04 Summan av två värden.csproj", "{A49D848D-7715-4965-92B2-DF64DAF7178E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Returnera summa", "05 Returnera summa\05 Returnera summa.csproj", "{E99717E4-BEDC-47D0-8A6A-64284390326C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A49D848D-7715-4965-92B2-DF64DAF7178E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49D848D-7715-4965-92B2-DF64DAF7178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49D848D-7715-4965-92B2-DF64DAF7178E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99717E4-BEDC-47D0-8A6A-64284390326C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

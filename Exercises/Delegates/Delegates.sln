@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Deklarera egen delegat",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Använd generiskt delegat", "02 Använd generiskt delegat\02 Använd generiskt delegat.csproj", "{302EC920-2015-4146-B550-17BEBEDCCD96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Metod med delegat som inparameter", "03 Metod med delegat som inparameter\03 Metod med delegat som inparameter.csproj", "{AA622AB8-021A-475F-8F26-527BE8F19CF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{302EC920-2015-4146-B550-17BEBEDCCD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302EC920-2015-4146-B550-17BEBEDCCD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302EC920-2015-4146-B550-17BEBEDCCD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA622AB8-021A-475F-8F26-527BE8F19CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA622AB8-021A-475F-8F26-527BE8F19CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA622AB8-021A-475F-8F26-527BE8F19CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA622AB8-021A-475F-8F26-527BE8F19CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,4 +26,3 @@ This is where special assignments resides. These assignments counts towards the 
 ### [Project Euler](https://github.com/Kavency/Project_Euler)
 
 I will try to solve puzzles from the [Project Euler website](https://projecteuler.net/archives), given there is time for it. These solutions will reside in its own [repo](https://github.com/Kavency/Project_Euler).
-https://github.com/Kavency/ITHS_Labb02

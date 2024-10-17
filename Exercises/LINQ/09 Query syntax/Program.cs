@@ -17,27 +17,40 @@ var ageFilter = from person in people
                 where person.Age >= 20 && person.Age <= 40
                 select person;
 
-//foreach (var item in ageFilter)
-//{
-//    Console.WriteLine($"{item.FirstName} - {item.Age}");
-//}
+Console.WriteLine("- Ages ranging from 20 to 40...");
+foreach (var item in ageFilter)
+{
+    Console.WriteLine($"{item.FirstName} - {item.Age}");
+}
 
 // 03...
 var tallFilter = from person in ageFilter
                  where person.Height > 1.9
                  select person;
 
-//foreach (var item in tallFilter)
-//{
-//    Console.WriteLine($"{item.FirstName} - {item.Height}");
-//}
+Console.WriteLine("\r\n- People taller than 1.90m...");
+foreach (var item in tallFilter)
+{
+    Console.WriteLine($"{item.FirstName} - {item.Height}");
+}
 
 // 04...
 var onlyNames = from person in people
                 where person.FirstName.Length > person.LastName.Length
                 select new { FirstName = person.FirstName, LastName = person.LastName };
 
+Console.WriteLine("\r\n- People with firstname longer than lastname...");
 foreach (var item in onlyNames)
 {
     Console.WriteLine($"{item.FirstName} {item.LastName}");
+}
+
+// 05...
+var nameBMI = from person in people
+              select new { FullName = $"{person.FirstName} {person.LastName}", BMI = person.Weight / Math.Pow(person.Height, 2) };
+
+Console.WriteLine("\r\n- People with full name and BMI...");
+foreach (var item in nameBMI)
+{
+    Console.WriteLine($"{item.FullName} - {item.BMI:F2}");
 }

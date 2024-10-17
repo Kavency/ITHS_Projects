@@ -13,10 +13,10 @@ var people = new[] {
       new { LastName = "Olofsson",  FirstName = "Sven",  Age = 25, Height = 167, Weight = 56.7f },
       new { LastName = "Karlsson",  FirstName = "Per Olof Stekare",  Age = 12, Height = 194, Weight = 87.6f } };
 
-var names = people.Select(p => $"{p.FirstName} {p.LastName} BMI: {p.Weight/(p.Height/100 * p.Height / 100)}");
-    //(p => p.FirstName.Length > p.LastName.Length);
+var names = people.Select(p => new { FullName = $"{p.FirstName} {p.LastName}", BMI = p.Weight / (p.Height / 100 * p.Height / 100) });
+    
 
 foreach (var item in names)
 {
-    Console.WriteLine($"{item}");
+    Console.WriteLine($"{item.FullName} - {item.BMI}");
 }

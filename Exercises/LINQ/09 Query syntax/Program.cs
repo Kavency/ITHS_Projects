@@ -2,6 +2,8 @@
 // Lös alla uppgifter 2 - 8 med query-syntax 
 // (om du använt method-syntax, annars tvärtom).
 
+using System;
+
 var people = new[] {
       new { LastName = "Eriksson",  FirstName = "Anders", Age = 39, Height = 1.82, Weight = 85 },
       new { LastName = "Palm", FirstName = "Sandra",  Age = 40, Height = 1.98, Weight = 92 },
@@ -64,4 +66,15 @@ Console.WriteLine("\r\n- People with BMI between 20 and 25...");
 foreach (var item in newBMI)
 {
     Console.WriteLine($"{item.FullName} - {item.BMI:F2}");
+}
+
+// 07...
+var newBMI2 = from person in people
+             where person.Weight / Math.Pow(person.Height, 2) >= 20 && person.Weight / Math.Pow(person.Height, 2) <= 25
+              select person;
+
+Console.WriteLine("\r\n- People with BMI between 20 and 25...");
+foreach (var item in newBMI2)
+{
+    Console.WriteLine($"{item.FirstName} - {item.Weight / Math.Pow(item.Height, 2):F2}");
 }

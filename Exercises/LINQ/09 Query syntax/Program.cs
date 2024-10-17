@@ -17,7 +17,17 @@ var ageFilter = from person in people
                 where person.Age >= 20 && person.Age <= 40
                 select person;
 
-foreach (var item in ageFilter)
+//foreach (var item in ageFilter)
+//{
+//    Console.WriteLine($"{item.FirstName} - {item.Age}");
+//}
+
+// 03...
+var tallFilter = from person in ageFilter
+                 where person.Height > 1.9
+                 select person;
+
+foreach (var item in tallFilter)
 {
-    Console.WriteLine($"{item.FirstName} - {item.Age}");
+    Console.WriteLine($"{item.FirstName} - {item.Height}");
 }

@@ -3,18 +3,18 @@
 // får med personer med BMI under 20 eller BMI över 25.
 
 var people = new[] {
-      new { LastName = "Eriksson",  FirstName = "Anders", Age = 39, Height = 182, Weight = 37.4f },
-      new { LastName = "Palm", FirstName = "Sandra",  Age = 40, Height = 198, Weight = 33.4f },
-      new { LastName = "Andersson",  FirstName = "Per",  Age = 31, Height = 192, Weight = 89.6f },
-      new { LastName = "Lundberg",  FirstName = "Anna",  Age = 66, Height = 167, Weight = 76.8f },
-      new { LastName = "Eriksson",  FirstName = "Camilla",  Age = 65, Height = 132, Weight = 23.2f },
-      new { LastName = "Svensson",  FirstName = "Erika",  Age = 47, Height = 178, Weight = 76.6f },
-      new { LastName = "Olofsson",  FirstName = "Sven",  Age = 25, Height = 167, Weight = 56.7f },
-      new { LastName = "Karlsson",  FirstName = "Per Olof Stekare",  Age = 12, Height = 194, Weight = 87.6f } };
+      new { LastName = "Eriksson",  FirstName = "Anders", Age = 39, Height = 1.82, Weight = 85 },
+      new { LastName = "Palm", FirstName = "Sandra",  Age = 40, Height = 1.98, Weight = 92 },
+      new { LastName = "Andersson",  FirstName = "Per",  Age = 31, Height = 1.92, Weight = 87 },
+      new { LastName = "Lundberg",  FirstName = "Anna",  Age = 66, Height = 1.67, Weight = 74 },
+      new { LastName = "Eriksson",  FirstName = "Camilla",  Age = 65, Height = 1.32, Weight = 64 },
+      new { LastName = "Svensson",  FirstName = "Erika",  Age = 47, Height = 1.78, Weight = 84 },
+      new { LastName = "Olofsson",  FirstName = "Sven",  Age = 25, Height = 1.67, Weight = 74 },
+      new { LastName = "Karlsson",  FirstName = "Per Olof Stekare",  Age = 12, Height = 1.94, Weight = 87 } };
 
-var names = people.Select(p => new { FullName = $"{p.FirstName} {p.LastName}", BMI = p.Weight / (p.Height / 100 * p.Height / 100) });
+var names = people.Select(p => new { FullName = $"{p.FirstName} {p.LastName}", BMI = p.Weight / (p.Height * p.Height) });
 
-foreach (var item in names.Where(p => p.BMI < 20 || p.BMI > 77))
+foreach (var item in names.Where(p => p.BMI < 20 || p.BMI > 25))
 {
     Console.WriteLine($"{item.FullName} - {item.BMI}");
 }

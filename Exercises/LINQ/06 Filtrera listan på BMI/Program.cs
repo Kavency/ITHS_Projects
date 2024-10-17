@@ -12,9 +12,11 @@ var people = new[] {
       new { LastName = "Olofsson",  FirstName = "Sven",  Age = 25, Height = 1.67, Weight = 74 },
       new { LastName = "Karlsson",  FirstName = "Per Olof Stekare",  Age = 12, Height = 1.94, Weight = 87 } };
 
-var names = people.Select(p => new { FullName = $"{p.FirstName} {p.LastName}", BMI = p.Weight / (p.Height * p.Height) });
+var names = people
+    .Select(p => new { FullName = $"{p.FirstName} {p.LastName}", BMI = p.Weight / (p.Height * p.Height) })
+    .Where(p => p.BMI < 20 || p.BMI > 25);
 
-foreach (var item in names.Where(p => p.BMI < 20 || p.BMI > 25))
+foreach (var item in names)
 {
     Console.WriteLine($"{item.FullName} - {item.BMI}");
 }

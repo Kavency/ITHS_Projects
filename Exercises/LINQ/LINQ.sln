@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Anonyma datatyper", "01 Anonyma datatyper\01 Anonyma datatyper.csproj", "{14C0D70D-C223-4F90-BCDD-D73E7682E34F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Anonyma datatyper", "01 Anonyma datatyper\01 Anonyma datatyper.csproj", "{14C0D70D-C223-4F90-BCDD-D73E7682E34F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Filtrera på ålder", "02 Filtrera på ålder\02 Filtrera på ålder.csproj", "{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Filtrera på ålder", "02 Filtrera på ålder\02 Filtrera på ålder.csproj", "{462B30CB-2E87-4F74-968F-CBC1CDB63FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Längre än 190 cm", "03 Längre än 190 cm\03 Längre än 190 cm.csproj", "{16970D94-02B9-4C60-BA13-FCEFA869AA4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Längre än 190 cm", "03 Längre än 190 cm\03 Längre än 190 cm.csproj", "{16970D94-02B9-4C60-BA13-FCEFA869AA4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Filtrera på namn", "04 Filtrera på namn\04 Filtrera på namn.csproj", "{939A25C5-1082-4202-BA69-3D14E3886512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Filtrera på namn", "04 Filtrera på namn\04 Filtrera på namn.csproj", "{939A25C5-1082-4202-BA69-3D14E3886512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Namnet med BMI", "05 Namnet med BMI\05 Namnet med BMI.csproj", "{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Namnet med BMI", "05 Namnet med BMI\05 Namnet med BMI.csproj", "{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Filtrera listan på BMI", "06 Filtrera listan på BMI\06 Filtrera listan på BMI.csproj", "{CF7BB82F-B8FE-41CD-9347-727C2FB2E25A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D9ECF71-EED0-4A09-9227-8A8F3FEF3AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7BB82F-B8FE-41CD-9347-727C2FB2E25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7BB82F-B8FE-41CD-9347-727C2FB2E25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7BB82F-B8FE-41CD-9347-727C2FB2E25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7BB82F-B8FE-41CD-9347-727C2FB2E25A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

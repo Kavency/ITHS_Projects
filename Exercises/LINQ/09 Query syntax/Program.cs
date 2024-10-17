@@ -7,7 +7,7 @@ using System;
 var people = new[] {
       new { LastName = "Eriksson",  FirstName = "Anders", Age = 39, Height = 1.82, Weight = 85 },
       new { LastName = "Palm", FirstName = "Sandra",  Age = 40, Height = 1.98, Weight = 92 },
-      new { LastName = "Andersson",  FirstName = "Per",  Age = 31, Height = 1.92, Weight = 87 },
+      new { LastName = "Andersson",  FirstName = "Per",  Age = 17, Height = 1.92, Weight = 87 },
       new { LastName = "Lundberg",  FirstName = "Anna",  Age = 66, Height = 1.67, Weight = 74 },
       new { LastName = "Eriksson",  FirstName = "Camilla",  Age = 65, Height = 1.32, Weight = 64 },
       new { LastName = "Svensson",  FirstName = "Erika",  Age = 47, Height = 1.78, Weight = 84 },
@@ -77,4 +77,14 @@ Console.WriteLine("\r\n- People with BMI between 20 and 25...");
 foreach (var item in newBMI2)
 {
     Console.WriteLine($"{item.FirstName} - {item.Weight / Math.Pow(item.Height, 2):F2}");
+}
+
+// 08...
+var userNames = from person in people
+                select new { UserName = $"{person.FirstName}{person.Age}", Category = person.Age < 18 ? "Child" : "Adult" };
+
+Console.WriteLine("\r\n- Usernames and category...");
+foreach (var item in userNames)
+{
+    Console.WriteLine($"{item.UserName} - {item.Category}");
 }

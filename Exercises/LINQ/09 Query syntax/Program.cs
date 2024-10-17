@@ -54,3 +54,14 @@ foreach (var item in nameBMI)
 {
     Console.WriteLine($"{item.FullName} - {item.BMI:F2}");
 }
+
+// 06...
+var newBMI = from person in nameBMI
+             where person.BMI >= 20 && person.BMI <= 25
+             select person;
+
+Console.WriteLine("\r\n- People with BMI between 20 and 25...");
+foreach (var item in newBMI)
+{
+    Console.WriteLine($"{item.FullName} - {item.BMI:F2}");
+}

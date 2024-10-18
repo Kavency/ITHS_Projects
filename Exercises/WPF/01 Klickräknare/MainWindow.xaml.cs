@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics.Metrics;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,16 @@ namespace _01_Klickräknare
     /// </summary>
     public partial class MainWindow : Window
     {
+        int clickCounter = 0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ClickerBTN_Click(object sender, RoutedEventArgs e)
+        {
+            ClickerBTN.Content = $"Clicked {++clickCounter} times!";
+            ClickerBTN.Height = ClickerBTN.Height *= 1.05;
         }
     }
 }

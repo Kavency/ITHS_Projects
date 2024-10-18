@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Formulär", "05 Formulä
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Siffror i rutnät", "06 Siffror i rutnät\06 Siffror i rutnät.csproj", "{128A6270-55DE-4EDB-A972-D6D89905F3EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Formulär i rutnät", "07 Formulär i rutnät\07 Formulär i rutnät.csproj", "{AE726242-6E26-4087-8CD2-3086F92E5EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{128A6270-55DE-4EDB-A972-D6D89905F3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128A6270-55DE-4EDB-A972-D6D89905F3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128A6270-55DE-4EDB-A972-D6D89905F3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE726242-6E26-4087-8CD2-3086F92E5EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE726242-6E26-4087-8CD2-3086F92E5EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE726242-6E26-4087-8CD2-3086F92E5EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE726242-6E26-4087-8CD2-3086F92E5EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

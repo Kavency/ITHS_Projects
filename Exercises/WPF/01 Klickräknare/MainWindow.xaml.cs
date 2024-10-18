@@ -1,14 +1,10 @@
-﻿using System.Diagnostics.Metrics;
-using System.Text;
+﻿// 1.Klickräknare
+// Bygg ett program med en knapp som håller reda på hur
+// många gånger man klickat på den. Det ska stå "Click: X" 
+// på knappen, där X är antalet gånger man klickat på knappen.
+
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace _01_Klickräknare
 {

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Centrerad knapp", "01 Ce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Knappar i hörnen", "02 Knappar i hörnen\02 Knappar i hörnen.csproj", "{724BE7BF-D1E2-4631-B1D7-B82FB01880B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Tre centrerade knappar", "03 Tre centrerade knappar\03 Tre centrerade knappar.csproj", "{1031B472-C6F1-44DF-B237-86285B7216AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{724BE7BF-D1E2-4631-B1D7-B82FB01880B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724BE7BF-D1E2-4631-B1D7-B82FB01880B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724BE7BF-D1E2-4631-B1D7-B82FB01880B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1031B472-C6F1-44DF-B237-86285B7216AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1031B472-C6F1-44DF-B237-86285B7216AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1031B472-C6F1-44DF-B237-86285B7216AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1031B472-C6F1-44DF-B237-86285B7216AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

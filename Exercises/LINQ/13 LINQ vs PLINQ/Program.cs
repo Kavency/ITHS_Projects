@@ -12,4 +12,30 @@
 //
 // Prova sedan att köra samma beräkning som parallell LINQ; 
 // jämför tiden det tar att exekvera.
+ulong sum = 0;
 
+var numbers = Enumerable.Range(1, 1000_000_000);
+
+// Using LINQ method-syntac
+var LINQNums = numbers.Where(n => n % 3 == 0 || n % 5 == 0);
+
+// Using PLINQ
+var PLINQNums = numbers.AsParallel().Where(n => n % 3 == 0 || n % 5 == 0);
+
+foreach (var item in LINQNums) // 10 400ms using LINQ.
+{
+    sum += (ulong)item;
+    //Console.WriteLine(item);
+}
+Console.WriteLine($"\r\nTotal with LINQ: {sum}");
+
+sum = 0;
+
+foreach (var item in PLINQNums) // 15 900ms using PLINQ.
+{
+    sum += (ulong)item;
+    //Console.WriteLine(item);
+}
+
+
+Console.WriteLine($"\r\nTotal with PLINQ: {sum}");

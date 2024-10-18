@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_07_Formulär_i_rutnät"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="450">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Width" Value="200"/>
+        </Style>
+    </Window.Resources>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Label Content="Firstname"/>
+            <TextBox />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Vertical"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <Label Content="Lastname"/>
+            <TextBox />
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Vertical"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <Label Content="Email"/>
+            <TextBox />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <Button Content="OK" Margin="5" Padding="5"/>
+            <Button Content="Cancel" Margin="5" Padding="5"/>
+        </StackPanel>
 
     </Grid>
 </Window>

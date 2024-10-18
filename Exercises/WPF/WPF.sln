@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Klickräknare", "01 Klickräknare\01 Klickräknare.csproj", "{8937EF04-8192-4267-81CA-F7B071ED663D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Räkna upp och ner i en label", "02 Räkna upp och ner i en label\02 Räkna upp och ner i en label.csproj", "{40B0AEAD-4A10-433D-AB69-FD0E1BC5F31C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8937EF04-8192-4267-81CA-F7B071ED663D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8937EF04-8192-4267-81CA-F7B071ED663D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8937EF04-8192-4267-81CA-F7B071ED663D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B0AEAD-4A10-433D-AB69-FD0E1BC5F31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B0AEAD-4A10-433D-AB69-FD0E1BC5F31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B0AEAD-4A10-433D-AB69-FD0E1BC5F31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B0AEAD-4A10-433D-AB69-FD0E1BC5F31C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

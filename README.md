@@ -21,6 +21,7 @@ Within this section lies all the exercises given to us by our teachers.
 
 #### GUI
 + [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
++ [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/WPF)
 
 ### Assignments
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.

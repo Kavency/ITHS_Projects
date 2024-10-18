@@ -1,13 +1,11 @@
-﻿using System.Text;
+﻿// 3.Lägg till Slider
+// Uppdatera programmet i uppgift 2 så att det även finns 
+// en slider som kan sättas från 0 till 9 (i hela steg, 
+// alltså endast heltal). Om man flyttar slidern så kan 
+// värdet på labeln ändras. Observera att knapparna fortfarande 
+// ska finnas kvar, fungera som förut, och även uppdatera slidern.
+
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace _03_Lägg_till_Slider
 {

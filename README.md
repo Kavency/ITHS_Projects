@@ -12,7 +12,7 @@ Within this section lies all the exercises given to us by our teachers.
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
 + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)
 + [Functions](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Funktioner)
-+ [Labb 01](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Labb_01_Exercises)
++ [Labb 01 Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Labb_01_Exercises)
 + [OOP Basics](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/OOP_Basics)
 + [Properties](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Properties)
 + [Inheritance](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Inheritance)

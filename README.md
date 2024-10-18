@@ -19,6 +19,9 @@ Within this section lies all the exercises given to us by our teachers.
 + [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Delegates)
 + [LINQ](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/LINQ)
 
+#### GUI
++ [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
+
 ### Assignments
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.
 + [Labb 01](https://github.com/Kavency/ITHS_Labb01) - Algorithms

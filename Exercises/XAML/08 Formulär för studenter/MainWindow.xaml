@@ -5,8 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_08_Formulär_för_studenter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="350">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Column="0" 
+                    Orientation="Vertical"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center">
+            <Label Content="Students" Padding="0" Margin="0,5,0,0"/>
+            <ListBox VerticalAlignment="Center"
+                     Height="230">
+                <ListBoxItem Content="Kalle Anka"/>
+                <ListBoxItem Content="Musse Pigg"/>
+                <ListBoxItem Content="Arne Anka"/>
+                <ListBoxItem Content="TinTin Ratata"/>
+                <ListBoxItem Content="Kapten Haddock"/>
+                <ListBoxItem Content="Jason Bourne"/>
+            </ListBox>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="1" 
+            Orientation="Vertical"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <Label Content="Firstname" Padding="0" Margin="0,5,0,0"/>
+            <TextBox Width="150"/>
+            <Label Content="Lastname" Padding="0" Margin="0,5,0,0"/>
+            <TextBox/>
+            <Label Content="Email" Padding="0" Margin="0,5,0,0"/>
+            <TextBox/>
+            <StackPanel Orientation="Horizontal" 
+                        Margin="15"
+                        HorizontalAlignment="Center">
+                <Button Content="Add" Margin="5,0" Padding="5"/>
+                <Button Content="Cancel" Margin="5,0" Padding="5"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

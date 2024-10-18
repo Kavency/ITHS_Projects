@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel Orientation="Vertical" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center"
+                    Width="200">
+            
+            <Label Content="Firstname"/>
+            <TextBox />
+            
+            <Label Content="Lastname"/>
+            <TextBox />
+            
+            <Button Content="Okey"
+                    Width="100"
+                    Margin="25"/>
+        </StackPanel>
     </Grid>
 </Window>

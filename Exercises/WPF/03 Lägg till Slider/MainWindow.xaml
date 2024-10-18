@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_03_Lägg_till_Slider"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="200" Width="250">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+            Orientation="Horizontal" 
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <Button x:Name="DecreaseBTN" Content="Decrease" Padding="5" Click="DecreaseBTN_Click"/>
+            <Label x:Name="CounterLBL" Content="5" Margin="15,0"/>
+            <Button x:Name="IncreaseBTN" Content="Increase" Padding="5" Click="IncreaseBTN_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+            Orientation="Horizontal" 
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            <Slider x:Name="Slider" Value="{Binding Content, ElementName=CounterLBL}" Minimum="0" Maximum="25" Width="150" IsSnapToTickEnabled="True"/>
+        </StackPanel>
     </Grid>
 </Window>

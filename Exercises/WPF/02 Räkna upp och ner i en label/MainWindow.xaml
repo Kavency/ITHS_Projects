@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel Orientation="Horizontal" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Button x:Name="DecreaseBTN" Content="Decrease" Padding="5" Click="DecreaseBTN_Click"/>
+            <Label x:Name="CounterLBL" Content="5" Margin="15,0"/>
+            <Button x:Name="IncreaseBTN" Content="Increase" Padding="5" Click="IncreaseBTN_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

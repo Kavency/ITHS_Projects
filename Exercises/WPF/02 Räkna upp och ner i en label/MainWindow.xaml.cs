@@ -20,5 +20,17 @@ namespace _02_Räkna_upp_och_ner_i_en_label
         {
             InitializeComponent();
         }
+
+        private void DecreaseBTN_Click(object sender, RoutedEventArgs e)
+        {
+            int count = Int32.Parse(CounterLBL.Content.ToString());
+            CounterLBL.Content = --count;
+        }
+
+        private void IncreaseBTN_Click(object sender, RoutedEventArgs e)
+        {
+            int count = Int32.Parse(CounterLBL.Content.ToString());
+            CounterLBL.Content = ++count;
+        }
     }
 }

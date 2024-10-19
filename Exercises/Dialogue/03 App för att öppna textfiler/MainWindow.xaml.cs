@@ -1,13 +1,15 @@
-﻿using System.Text;
+﻿// 3.App för att öppna och visa textfiler.
+// Skapa en applikation där hela fönstret består av en 
+// readonly TextBox. Programmet ska ha en meny med en 
+// File->Open som visar en OpenFileDialog, och en 
+// File->Exit som avslutar programmet.
+//
+// När användaren valt en fil i OpenFileDialog 
+// så ska filen läsas in och visas i TextBoxen.
+
+using Microsoft.Win32;
+using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace _03_App_för_att_öppna_textfiler
 {
@@ -19,6 +21,22 @@ namespace _03_App_för_att_öppna_textfiler
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void open_file_event(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dialog = new();
+            dialog.ShowDialog();
+            textFileTextBox.Text = File.ReadAllText(dialog.FileName);
+        }
+
+        private void exit_app_event(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("Quit?", "Exit app", MessageBoxButton.YesNo);
+            if(result == MessageBoxResult.Yes)
+            {
+                Environment.Exit(200);
+            }
         }
     }
 }

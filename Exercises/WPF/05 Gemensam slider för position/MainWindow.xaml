@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_05_Gemensam_slider_för_position"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+            Title="MainWindow" Height="250" Width="250">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="positionCanvas">
+            <Label x:Name="positionLabel" 
+                Content="x: 0, y: 0" 
+                Background="#FFE2C2C2"
+                Canvas.Left="0"
+                Canvas.Right="0"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"/>
+        </Canvas>
+        <Slider x:Name="valueSlider" Grid.Column="0" Grid.Row="1" 
+            Maximum="100" Minimum="0" 
+            IsSnapToTickEnabled="True" 
+            ValueChanged="xSlider_ValueChanged"
+                VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            <CheckBox x:Name="xLock" Content="Lock x" Unchecked="xLock_Unchecked" Checked="xLock_Checked" />
+            <CheckBox x:Name="yLock" Content="Lock y" Unchecked="yLock_Unchecked" Checked="yLock_Checked" />
+        </StackPanel>
 
     </Grid>
 </Window>

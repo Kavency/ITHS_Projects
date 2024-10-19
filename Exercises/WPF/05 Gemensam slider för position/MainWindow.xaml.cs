@@ -14,6 +14,7 @@
 // ur checkboxarna: då "hoppar" labeln till sin nya position.
 
 using System.Windows;
+using System.Windows.Controls;
 
 namespace _05_Gemensam_slider_för_position
 {
@@ -22,9 +23,53 @@ namespace _05_Gemensam_slider_för_position
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int xLockedAt = 0;
+        private int yLockedAt = 0;
+        private int xPosition = 0;
+        private int yPosition = 0;
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void xSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if(xLock.IsChecked == true && yLock.IsChecked == false)
+            {
+                Canvas.SetTop(positionLabel, valueSlider.Value);
+            }
+
+            if(xLock.IsChecked == false && yLock.IsChecked == true)
+            {
+                Canvas.SetLeft(positionLabel, valueSlider.Value);
+            }
+
+            if(xLock.IsChecked == false && yLock.IsChecked == false)
+            {
+                Canvas.SetLeft(positionLabel, valueSlider.Value);
+                Canvas.SetTop(positionLabel, valueSlider.Value);
+            }
+
+            positionLabel.Content = $"x: {valueSlider.Value}, y: {valueSlider.Value}";
+        }
+        private void xLock_Checked(object sender, RoutedEventArgs e)
+        {
+            xLockedAt = (int)valueSlider.Value;
+        }
+
+        private void xLock_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Canvas.SetLeft(positionLabel, valueSlider.Value);
+        }
+
+        private void yLock_Checked(object sender, RoutedEventArgs e)
+        {
+            yLockedAt = (int)valueSlider.Value;
+        }
+        private void yLock_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Canvas.SetTop(positionLabel, valueSlider.Value);
+        }
+
     }
 }

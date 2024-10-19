@@ -17,5 +17,15 @@ namespace _02_Fråga_vid_avslut
         {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            var result = MessageBox.Show("Are you sure?", "Titel?", MessageBoxButton.YesNo);
+            if (result == MessageBoxResult.No)
+            {
+                e.Cancel = true;
+            }
+            
+        }
     }
 }

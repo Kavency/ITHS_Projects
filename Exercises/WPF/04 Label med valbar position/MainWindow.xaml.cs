@@ -26,5 +26,14 @@ namespace _04_Label_med_valbar_position
         {
             InitializeComponent();
         }
+
+        private void xSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            positionLabel.Content = $"x: {xSlider.Value}, y: {ySlider.Value}"; // y.Slider har ännu inte skapats så det blir null exception om value sätts från start.
+        }
+        private void ySlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            positionLabel.Content = $"x: {xSlider.Value}, y: {ySlider.Value}";
+        }
     }
 }

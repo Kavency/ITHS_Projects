@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_04_Label_med_valbar_position"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="250">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="CanvasItem">
+            <Label x:Name="positionLabel" 
+                   Content="x: 0, y: 0"
+                   Grid.Column="0" 
+                   Grid.Row="0" 
+                   Background="#FFF1D4D4"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Canvas.Left="{Binding ElementName=xSlider, Path=Value}"
+                   Canvas.Top="{Binding ElementName=ySlider, Path=Value}"/>
+        </Canvas>
+        
+        <Slider x:Name="xSlider" Grid.Column="0" Grid.Row="1" 
+                Maximum="100" Minimum="0" 
+                IsSnapToTickEnabled="True" 
+                ValueChanged="xSlider_ValueChanged"/>
+        
+        <Slider x:Name="ySlider" Grid.Column="1" Grid.Row="0" 
+                Maximum="100" Minimum="0" 
+                Orientation="Vertical" 
+                IsSnapToTickEnabled="True" 
+                IsDirectionReversed="True"
+                ValueChanged="ySlider_ValueChanged"/>
     </Grid>
 </Window>

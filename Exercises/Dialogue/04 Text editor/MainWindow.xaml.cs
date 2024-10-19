@@ -33,6 +33,8 @@
 //Extra-uppgift: Lägg till en <StatusBar> längst ner i appen, som visar vilken 
 //rad och kolumn textmarkören befinner sig på, samt totalt antal tecken i filen.
 
+using Microsoft.Win32;
+using System.IO;
 using System.Windows;
 
 namespace _04_Text_editor
@@ -45,6 +47,45 @@ namespace _04_Text_editor
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void newFile_Click(object sender, RoutedEventArgs e)
+        {
+            // if unsaved - ask confirmation
+            // else - empty textbox
+        }
+        private void open_file_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dialog = new();
+            var result = dialog.ShowDialog();
+            if(result == true)
+            {
+                Text_Editor_Window.Title = Path.GetFileName(dialog.FileName); ;
+                textFileTextBox.Text = File.ReadAllText(dialog.FileName);
+            }
+        }
+
+        private void save_file_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void save_as_file_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog dialog = new();
+            var result = dialog.ShowDialog();
+            if(result == true)
+            {
+                File.WriteAllText(dialog.FileName, textFileTextBox.Text);
+            }
+        }
+        private void exit_app_Click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("Quit?", "Exit app", MessageBoxButton.YesNo);
+            if (result == MessageBoxResult.Yes)
+            {
+                Environment.Exit(200);
+            }
         }
     }
 }

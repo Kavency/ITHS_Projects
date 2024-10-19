@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Fråga vid avslut", "02 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 App för att öppna textfiler", "03 App för att öppna textfiler\03 App för att öppna textfiler.csproj", "{EAA8F69D-8C08-46EA-B56B-76243A0A3895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Text editor", "04 Text editor\04 Text editor.csproj", "{2AF36256-3054-42A0-96E1-AF59E815C3C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EAA8F69D-8C08-46EA-B56B-76243A0A3895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAA8F69D-8C08-46EA-B56B-76243A0A3895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAA8F69D-8C08-46EA-B56B-76243A0A3895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF36256-3054-42A0-96E1-AF59E815C3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF36256-3054-42A0-96E1-AF59E815C3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF36256-3054-42A0-96E1-AF59E815C3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF36256-3054-42A0-96E1-AF59E815C3C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

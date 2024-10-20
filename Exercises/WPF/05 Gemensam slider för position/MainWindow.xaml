@@ -32,8 +32,8 @@
             ValueChanged="xSlider_ValueChanged"
                 VerticalAlignment="Center"/>
         <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
-            <CheckBox x:Name="xLock" Content="Lock x" Unchecked="xLock_Unchecked" Checked="xLock_Checked" />
-            <CheckBox x:Name="yLock" Content="Lock y" Unchecked="yLock_Unchecked" Checked="yLock_Checked" />
+            <CheckBox x:Name="xLock" Content="Lock x" Unchecked="xLock_Unchecked" />
+            <CheckBox x:Name="yLock" Content="Lock y" Unchecked="yLock_Unchecked" />
         </StackPanel>
 
     </Grid>

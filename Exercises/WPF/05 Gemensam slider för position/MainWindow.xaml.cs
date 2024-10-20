@@ -23,14 +23,11 @@ namespace _05_Gemensam_slider_för_position
     /// </summary>
     public partial class MainWindow : Window
     {
-        private int xLockedAt = 0;
-        private int yLockedAt = 0;
-        private int xPosition = 0;
-        private int yPosition = 0;
         public MainWindow()
         {
             InitializeComponent();
         }
+
 
         private void xSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
@@ -50,25 +47,21 @@ namespace _05_Gemensam_slider_för_position
                 Canvas.SetTop(positionLabel, valueSlider.Value);
             }
 
-            positionLabel.Content = $"x: {valueSlider.Value}, y: {valueSlider.Value}";
+            positionLabel.Content = $"x: {Canvas.GetLeft(positionLabel)}, y: {Canvas.GetTop(positionLabel)}";
         }
-        private void xLock_Checked(object sender, RoutedEventArgs e)
-        {
-            xLockedAt = (int)valueSlider.Value;
-        }
+
 
         private void xLock_Unchecked(object sender, RoutedEventArgs e)
         {
             Canvas.SetLeft(positionLabel, valueSlider.Value);
+            positionLabel.Content = $"x: {Canvas.GetLeft(positionLabel)}, y: {Canvas.GetTop(positionLabel)}";
         }
 
-        private void yLock_Checked(object sender, RoutedEventArgs e)
-        {
-            yLockedAt = (int)valueSlider.Value;
-        }
+
         private void yLock_Unchecked(object sender, RoutedEventArgs e)
         {
             Canvas.SetTop(positionLabel, valueSlider.Value);
+            positionLabel.Content = $"x: {Canvas.GetLeft(positionLabel)}, y: {Canvas.GetTop(positionLabel)}";
         }
 
     }

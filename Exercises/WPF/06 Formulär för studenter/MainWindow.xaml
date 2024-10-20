@@ -6,7 +6,31 @@
         xmlns:local="clr-namespace:_06_Formulär_för_studenter"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Grid.Column="0" Margin="5">
+            <Label Content="Students:"/>
+            <ListBox>
+                <ListBoxItem Content="Kalle Anka"/>
+                <ListBoxItem Content="Arne Anka"/>
+                <ListBoxItem Content="Jocke Anka"/>
+                <ListBoxItem Content="Kajsa Anka"/>
+            </ListBox>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="1" Margin="5">
+            <Label Content="Firstname:"/>
+            <TextBox/>
+            <Label Content="Lastname:"/>
+            <TextBox/>
+            <Label Content="Email:"/>
+            <TextBox/>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Center">
+                <Button Content="Add" Margin="10" Padding="5"/>
+                <Button Content="Clear" Margin="10" Padding="5"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

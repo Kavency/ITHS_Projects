@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_05_Färgblandare"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="250">
     <Grid>
-
+        <Button x:Name="chooseBTN" Content="Choose colour" Height="50" Click="chooseBTN_Click"/>
     </Grid>
 </Window>

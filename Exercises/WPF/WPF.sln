@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 Lägg till Slider", "03 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Label med valbar position", "04 Label med valbar position\04 Label med valbar position.csproj", "{D32607A6-938F-4124-979D-79B7B960C69D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Gemensam slider för position", "05 Gemensam slider för position\05 Gemensam slider för position.csproj", "{619B1DA1-7CF5-4C9B-BF30-FE45EE88F0ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Gemensam slider för position", "05 Gemensam slider för position\05 Gemensam slider för position.csproj", "{619B1DA1-7CF5-4C9B-BF30-FE45EE88F0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Formulär för studenter", "06 Formulär för studenter\06 Formulär för studenter.csproj", "{CDD5D4BD-03EA-46B1-80C7-DFFF841120D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{619B1DA1-7CF5-4C9B-BF30-FE45EE88F0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{619B1DA1-7CF5-4C9B-BF30-FE45EE88F0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{619B1DA1-7CF5-4C9B-BF30-FE45EE88F0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD5D4BD-03EA-46B1-80C7-DFFF841120D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD5D4BD-03EA-46B1-80C7-DFFF841120D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD5D4BD-03EA-46B1-80C7-DFFF841120D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD5D4BD-03EA-46B1-80C7-DFFF841120D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

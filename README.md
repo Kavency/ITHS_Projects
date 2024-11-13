@@ -27,6 +27,7 @@ Within this section lies all the exercises given to us by our teachers.
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.
 + [Labb 01](https://github.com/Kavency/ITHS_Labb01) - Algorithms
 + [Labb 02](https://github.com/Kavency/ITHS_Labb02) - OOP Console Game
++ [Labb 03](https://github.com/Kavency/ITHS_Labb03) - GUI
 
 ### [Project Euler](https://github.com/Kavency/Project_Euler)
 

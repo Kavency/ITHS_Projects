@@ -32,9 +32,9 @@ This is where special assignments resides. These assignments counts towards the 
 + [Labb 03](https://github.com/Kavency/ITHS_Labb03) - GUI
 
 **Databases**
-
-+ [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL
-+ [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB
++ [DB Labb 01](https://github.com/Kavency/ITHS_DB_Labb01/) - Design a database using MS SQL Server Management Studio.
++ [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL.
++ [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB.
 
 ### [Project Euler](https://github.com/Kavency/Project_Euler)
 

@@ -7,6 +7,7 @@ Feel free to browse around. 😊
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this section lies all the exercises given to us by our teachers.
+
 #### Basic C# and .NET
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
@@ -36,6 +37,6 @@ This is where special assignments resides. These assignments counts towards the 
 + [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL.
 + [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB.
 
-### [Project Euler](https://github.com/Kavency/Project_Euler)
+### Project Euler
 
 I will try to solve puzzles from the [Project Euler website](https://projecteuler.net/archives), given there is time for it. These solutions will reside in its own [repo](https://github.com/Kavency/Project_Euler).

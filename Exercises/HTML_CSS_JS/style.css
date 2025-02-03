@@ -1,0 +1,15 @@
+button{
+    background-color: aquamarine;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aqua;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+button:active{
+    background-color:bisque;
+    font-size: xx-large;
+    border-radius: 10px;
+}

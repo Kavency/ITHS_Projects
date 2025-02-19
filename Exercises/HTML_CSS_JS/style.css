@@ -13,3 +13,6 @@ button:active{
     font-size: xx-large;
     border-radius: 10px;
 }
+label{
+    font-size: xx-large;
+}

@@ -7,6 +7,7 @@ Feel free to browse around. 😊
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this section lies all the exercises given to us by our teachers.
+
 #### Basic C# and .NET
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
@@ -25,9 +26,17 @@ Within this section lies all the exercises given to us by our teachers.
 
 ### Assignments
 This is where special assignments resides. These assignments counts towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.
+
+**C#**
 + [Labb 01](https://github.com/Kavency/ITHS_Labb01) - Algorithms
 + [Labb 02](https://github.com/Kavency/ITHS_Labb02) - OOP Console Game
++ [Labb 03](https://github.com/Kavency/ITHS_Labb03) - GUI
 
-### [Project Euler](https://github.com/Kavency/Project_Euler)
+**Databases**
++ [DB Labb 01](https://github.com/Kavency/ITHS_DB_Labb01/) - Design a database using MS SQL Server Management Studio.
++ [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL.
++ [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB.
+
+### Project Euler
 
 I will try to solve puzzles from the [Project Euler website](https://projecteuler.net/archives), given there is time for it. These solutions will reside in its own [repo](https://github.com/Kavency/Project_Euler).

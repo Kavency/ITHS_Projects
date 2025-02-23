@@ -37,6 +37,9 @@ This is where special assignments resides. These assignments counts towards the 
 + [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL.
 + [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB.
 
+**Web development**
++ [Web Labb 01](https://github.com/Kavency/ITHS_Webb_Labb01) - Create a small website for a fictional local company using HTML, CSS and JS.
+
 ### Project Euler
 
 I will try to solve puzzles from the [Project Euler website](https://projecteuler.net/archives), given there is time for it. These solutions will reside in its own [repo](https://github.com/Kavency/Project_Euler).

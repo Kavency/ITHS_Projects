@@ -4,6 +4,22 @@ My name is Magnus and I'm currently studying to become a .NET developer. In this
 Feel free to browse around. 😊
 
 ## Links to different projects:
+### Assignments
+This is where special assignments resides. These assignments count towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.
+
+**C#**
++ [Labb 01](https://github.com/Kavency/ITHS_Labb01) - Algorithms
++ [Labb 02](https://github.com/Kavency/ITHS_Labb02) - OOP Console Game
++ [Labb 03](https://github.com/Kavency/ITHS_Labb03) - GUI
+
+**Databases**
++ [DB Labb 01](https://github.com/Kavency/ITHS_DB_Labb01/) - Design a database using MS SQL Server Management Studio.
++ [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL.
++ [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB.
+
+**Web development**
++ [Web Labb 01](https://github.com/Kavency/ITHS_Webb_Labb01) - Create a small website for a fictional local company using HTML, CSS and JS.
+
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this section lies the exercises given to us by our teachers regarding C#.
@@ -31,21 +47,6 @@ Within this section lies the exercises given to us by our teachers regarding Dat
 + [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)
 + [Aggregation](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/Aggregation)
 
-### Assignments
-This is where special assignments resides. These assignments count towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.
-
-**C#**
-+ [Labb 01](https://github.com/Kavency/ITHS_Labb01) - Algorithms
-+ [Labb 02](https://github.com/Kavency/ITHS_Labb02) - OOP Console Game
-+ [Labb 03](https://github.com/Kavency/ITHS_Labb03) - GUI
-
-**Databases**
-+ [DB Labb 01](https://github.com/Kavency/ITHS_DB_Labb01/) - Design a database using MS SQL Server Management Studio.
-+ [DB Labb 02](https://github.com/Kavency/ITHS_DB_Labb02) - Database first with SQL.
-+ [DB Labb 03](https://github.com/Kavency/ITHS_DB_Labb03) - Code first with MongoDB.
-
-**Web development**
-+ [Web Labb 01](https://github.com/Kavency/ITHS_Webb_Labb01) - Create a small website for a fictional local company using HTML, CSS and JS.
 
 ### Project Euler
 

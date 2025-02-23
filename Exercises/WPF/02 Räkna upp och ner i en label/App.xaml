@@ -1,0 +1,9 @@
+﻿<Application x:Class="_02_Räkna_upp_och_ner_i_en_label.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_02_Räkna_upp_och_ner_i_en_label"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

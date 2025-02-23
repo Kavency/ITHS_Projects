@@ -6,7 +6,10 @@ Feel free to browse around. 😊
 ## Links to different projects:
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
-Within this section lies all the exercises given to us by our teachers.
+Within this section lies the exercises given to us by our teachers regarding C#.
+
+### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises)
+Within this section lies the exercises given to us by our teachers regarding Databases.
 
 #### Basic C# and .NET
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
@@ -23,6 +26,10 @@ Within this section lies all the exercises given to us by our teachers.
 #### GUI
 + [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
 + [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/WPF)
+
+#### Databases
++ [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)
++ [Aggregation](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/Aggregation)
 
 ### Assignments
 This is where special assignments resides. These assignments count towards the grade given at the end. I will add links to each assignment when each assignment is completed and made public. Each assignment will have its own repo.

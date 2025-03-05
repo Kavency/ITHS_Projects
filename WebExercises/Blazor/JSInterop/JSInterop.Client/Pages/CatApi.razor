@@ -1,0 +1,27 @@
+﻿@page "/catapi"
+@inject HttpClient Http
+
+<h3>CatApi</h3>
+
+@if(Fact is null)
+{
+    <p>Loading facts...</p>
+}
+else
+{
+    <p>@Fact.data[0]</p>
+}
+
+@code {
+    private CatFact? Fact;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Fact = await Http.GetFromJsonAsync<CatFact>("http://meowfacts.herokuapp.com/");
+    }
+
+    private class CatFact
+    {
+        public string[] data { get; set; }
+    }
+}

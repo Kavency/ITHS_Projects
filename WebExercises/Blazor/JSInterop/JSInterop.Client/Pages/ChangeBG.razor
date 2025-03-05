@@ -1,0 +1,31 @@
+﻿@page "/jsinterop"
+@inject IJSRuntime JS
+@rendermode InteractiveWebAssembly
+
+<h3>JS InterOp colour change</h3>
+
+<button @onclick="ChangeBackground">Change background colour</button>
+<p>Window width: @windowWidth</p>
+<p>Window height: @windowHeight</p>
+
+
+@code {
+    private int windowWidth;
+    private int windowHeight;
+
+    private async Task ChangeBackground()
+    {
+        await JS.InvokeVoidAsync("changeColour");
+
+        GetWindowHeight();
+    }
+
+    private async Task GetWindowHeight()
+    {
+        windowHeight =  await JS.InvokeAsync<int>("getWindowHeight");
+    }
+    private async Task GetWindowWidth()
+    {
+        windowWidth =  await JS.InvokeAsync<int>("getWindowWidth");
+    }
+}

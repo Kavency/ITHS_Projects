@@ -1,0 +1,32 @@
+﻿@page "/pokemon"
+@inject HttpClient Http
+@inject IJSRuntime JS
+@rendermode InteractiveWebAssembly
+
+<h3>Pokémon</h3>
+
+<button @onclick="ChangeBackground">Fetch Data</button>
+
+
+
+@code {
+    private Pokemon PokemonData;
+
+    private int colour = 50;
+
+    private async Task FetchData()
+    {
+        //PokemonData = await Http.GetFromJsonAsync<Pokemon>("https://pokeapi.co/api/v2/pokemon/ditto");
+    }
+
+    private async Task ChangeBackground()
+    {
+        await JS.InvokeVoidAsync("changeColour");
+    }
+
+
+    private class Pokemon
+    {
+        public string[] Data { get; set; }
+    }
+}

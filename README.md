@@ -45,6 +45,12 @@ Web development
     + [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)
     + [Aggregation](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/Aggregation)
 
++ Clean Code
+    + [Design patterns](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns)
+        + [Creational](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/)
+            + [Singleton](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/SingletonPattern)
+      
+
 
 ### Project Euler
 

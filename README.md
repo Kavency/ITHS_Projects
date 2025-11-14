@@ -50,6 +50,7 @@ Web development
         + [Creational](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/)
             + [Singleton](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/SingletonPattern)
             + [Factory](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/FactoryPattern)
+            + [Dependency Injection](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/DependencyInjection)
       
 
 

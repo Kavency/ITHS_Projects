@@ -49,6 +49,7 @@ Web development
     + [Design patterns](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns)
         + [Creational](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/)
             + [Singleton](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/SingletonPattern)
+            + [Factory](https://github.com/Kavency/ITHS_Projects/tree/Release/CleanCodeExercises/DesignPatterns/Creational/FactoryPattern)
       
 
 

@@ -21,26 +21,26 @@ This is where special assignments resides. These assignments count towards the g
 + [Web Labb 01](https://github.com/Kavency/ITHS_Webb_Labb01) - Create a small website for a fictional local company using HTML, CSS and JS.
 + [Web Labb 02](https://github.com/Kavency/ITHS_Webb_Labb02) - An online store for a fictional kayak retailer. This one uses Blazor.
 
-#### Exercises
-**[Basic C# and .NET](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)**
-+ [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
-+ [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
-+ [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)
-+ [Functions](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Funktioner)
-+ [Labb 01 Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Labb_01_Exercises)
-+ [OOP Basics](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/OOP_Basics)
-+ [Properties](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Properties)
-+ [Inheritance](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Inheritance)
-+ [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Delegates)
-+ [LINQ](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/LINQ)
+### Exercises
++ **[Basic C# and .NET](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)**
+    + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
+    + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
+    + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)
+    + [Functions](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Funktioner)
+    + [Labb 01 Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Labb_01_Exercises)
+    + [OOP Basics](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/OOP_Basics)
+    + [Properties](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Properties)
+    + [Inheritance](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Inheritance)
+    + [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Delegates)
+    + [LINQ](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/LINQ)
 
-**GUI**
-+ [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
-+ [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/WPF)
++ **GUI**
+    + [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
+    + [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/WPF)
 
-**[Databases](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises)**
-+ [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)
-+ [Aggregation](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/Aggregation)
++ **[Databases](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises)**
+    + [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)
+    + [Aggregation](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/Aggregation)
 
 
 ### Project Euler

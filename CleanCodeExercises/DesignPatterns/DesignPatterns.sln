@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Creatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "Creational\FactoryPattern\FactoryPattern.csproj", "{1229D706-D0A1-4B77-8C8D-E27DB2F7EFC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "Creational\DependencyInjection\DependencyInjection.csproj", "{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{1229D706-D0A1-4B77-8C8D-E27DB2F7EFC6}.Release|x64.Build.0 = Release|Any CPU
 		{1229D706-D0A1-4B77-8C8D-E27DB2F7EFC6}.Release|x86.ActiveCfg = Release|Any CPU
 		{1229D706-D0A1-4B77-8C8D-E27DB2F7EFC6}.Release|x86.Build.0 = Release|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Debug|x64.Build.0 = Debug|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Debug|x86.Build.0 = Debug|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Release|x64.ActiveCfg = Release|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Release|x64.Build.0 = Release|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Release|x86.ActiveCfg = Release|Any CPU
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{02453F43-FD9A-4AEA-A8D0-651A9EE78930} = {56A9F078-40C9-3DDD-7DA3-B5A4BF238A7F}
 		{1229D706-D0A1-4B77-8C8D-E27DB2F7EFC6} = {56A9F078-40C9-3DDD-7DA3-B5A4BF238A7F}
+		{0AE187CB-4D94-48DA-9EC2-0AB16A11041E} = {56A9F078-40C9-3DDD-7DA3-B5A4BF238A7F}
 	EndGlobalSection
 EndGlobal

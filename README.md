@@ -19,7 +19,7 @@ This is where special assignments resides. These assignments count towards the g
 
 **Web development**
 + [Web Labb 01](https://github.com/Kavency/ITHS_Webb_Labb01) - Create a small website for a fictional local company using HTML, CSS and JS.
-+ [Web Labb 02](https://github.com/Kavency/ITHS_Webb_Labb02) - An online store for a fictional kayak retailer.
++ [Web Labb 02](https://github.com/Kavency/ITHS_Webb_Labb02) - An online store for a fictional kayak retailer. This one uses Blazor.
 
 ### [Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
 Within this section lies the exercises given to us by our teachers regarding C#.

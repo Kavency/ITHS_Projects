@@ -5,6 +5,6 @@ public class Logger : ILogger
     public void Log(string msg)
     {
         var dateTime = DateTime.Now;
-        Console.WriteLine($"[LOG]{dateTime}: {msg}");
+        Console.WriteLine($"[LOG] {dateTime}: {msg}");
     }
 }

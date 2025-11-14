@@ -21,11 +21,8 @@ This is where special assignments resides. These assignments count towards the g
 + [Web Labb 01](https://github.com/Kavency/ITHS_Webb_Labb01) - Create a small website for a fictional local company using HTML, CSS and JS.
 + [Web Labb 02](https://github.com/Kavency/ITHS_Webb_Labb02) - An online store for a fictional kayak retailer. This one uses Blazor.
 
-**Exercises**
-+ [Exercises - Programming](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
-+ [Exercises - Database](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises)
-
-#### Basic C# and .NET
+#### Exercises
+**[Basic C# and .NET](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)**
 + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
 + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
 + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)
@@ -37,11 +34,11 @@ This is where special assignments resides. These assignments count towards the g
 + [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Delegates)
 + [LINQ](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/LINQ)
 
-#### GUI
+**GUI**
 + [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
 + [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/WPF)
 
-#### Databases
+**[Databases](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises)**
 + [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)
 + [Aggregation](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/Aggregation)
 

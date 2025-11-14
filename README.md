@@ -25,21 +25,21 @@ Web development
 
 ### Exercises
 
-+ [Basic C# and .NET](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises)
-    + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Variables)
-    + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Loops)
-    + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Indexing)
-    + [Functions](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Funktioner)
-    + [Labb 01 Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Labb_01_Exercises)
-    + [OOP Basics](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/OOP_Basics)
-    + [Properties](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Properties)
-    + [Inheritance](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Inheritance)
-    + [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/Delegates)
-    + [LINQ](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/LINQ)
++ [Basic C# and .NET](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises)
+    + [Variables](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Variables)
+    + [Loops](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Loops)
+    + [Indexing](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Indexing)
+    + [Functions](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Funktioner)
+    + [Labb 01 Exercises](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Labb_01_Exercises)
+    + [OOP Basics](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/OOP_Basics)
+    + [Properties](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Properties)
+    + [Inheritance](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Inheritance)
+    + [Delegates](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/Delegates)
+    + [LINQ](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/LINQ)
 
 + GUI
-    + [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/XAML)
-    + [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/Exercises/WPF)
+    + [XAML](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/XAML)
+    + [WPF](https://github.com/Kavency/ITHS_Projects/tree/Release/ProgrammingExercises/WPF)
 
 + [Databases](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises)
     + [CRUD](https://github.com/Kavency/ITHS_Projects/tree/Release/DBExercises/CRUD)

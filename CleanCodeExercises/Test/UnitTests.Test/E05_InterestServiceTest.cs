@@ -15,10 +15,10 @@ public class E05_InterestServiceTest
 
 
     [Theory]
-    [InlineData(-1000, 5, 365, 50.0)]
-    [InlineData(1000, -5, 365, 0.0)]
-    [InlineData(1000, 5, -365, 0.0)]
-    public void CalculateInterest_InvalidArgumentsProvided_ThrowsArgumentException(decimal balance, decimal annualPercentageRate, int days, decimal expected)
+    [InlineData(-1000, 5, 365)]
+    [InlineData(1000, -5, 365)]
+    [InlineData(1000, 5, -365)]
+    public void CalculateInterest_InvalidArgumentsProvided_ThrowsArgumentException(decimal balance, decimal annualPercentageRate, int days)
     {
         Assert.Throws<ArgumentException>(() => InterestService.CalculateInterest(balance, annualPercentageRate, days));
     }

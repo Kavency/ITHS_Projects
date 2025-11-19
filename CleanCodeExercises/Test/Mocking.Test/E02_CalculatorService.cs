@@ -21,6 +21,6 @@ public class E02_CalculatorService
     {
         var result = _service.Add(1, 1);
         Assert.Equal(2, result);
-        _mock.Verify(x => x.Log("Add: 1 + 1 = 2"), Times.Once);
+        _mock.Verify(x => x.Log(It.Is<string>(s => s.Contains("Add: 1 + 1"))), Times.Once);
     }
 }

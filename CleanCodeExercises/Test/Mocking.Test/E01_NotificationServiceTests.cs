@@ -30,7 +30,7 @@ public class E01_NotificationServiceTests
     [InlineData(null)]
     public void NotifyUser_MessageStringsIsEmpty_ReturnsWithoutSendingMessage(string? message)
     {
-        _service.NotifyUser("1234", message);
-        _mock.Verify(x => x.SendMessage("1234", message), Times.Never);
+        _service.NotifyUser("1234", message!);
+        _mock.Verify(x => x.SendMessage("1234", message!), Times.Never);
     }
 }

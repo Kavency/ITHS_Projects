@@ -22,8 +22,8 @@ public class E04_StockServiceTests
     public void HasEnoughStock_ReturnsTrue()
     {
         int amount = 1;
-        int stock = 5;
-        _mockRepo.Setup(x => x.GetStock(It.IsAny<string>())).Returns(stock);
+        int inStock = 5;
+        _mockRepo.Setup(x => x.GetStock(It.IsAny<string>())).Returns(inStock);
         var result = _service.HasEnoughStock(_productId, amount);
         Assert.True(result);
         _mockRepo.Verify(x => x.GetStock(_productId), Times.Once);
@@ -34,8 +34,8 @@ public class E04_StockServiceTests
     public void HasEnoughStock_ReturnsFalse()
     {
         var amount = 5;
-        var stock = 1;
-        _mockRepo.Setup(x => x.GetStock(It.IsAny<string>())).Returns(stock);
+        var inStock = 1;
+        _mockRepo.Setup(x => x.GetStock(It.IsAny<string>())).Returns(inStock);
         var result = _service.HasEnoughStock(_productId, amount);
         Assert.False(result);
         _mockRepo.Verify(x => x.GetStock(_productId), Times.Once);

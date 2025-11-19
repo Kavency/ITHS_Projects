@@ -1,4 +1,4 @@
-using ÖvningarMockning.Core.Interfaces;
+using Ã–vningarMockning.Core.Interfaces;
 
 public class WeatherService
 {
